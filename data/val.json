@@ -1,0 +1,4002 @@
+[
+  {
+    "nl": "Check if the input is a string of two uppercase letters and four digits separated by a colon.",
+    "regex": "^[A-Z]{2}:[0-9]{4}$"
+  },
+  {
+    "nl": "Identify a string of between two and four digits.",
+    "regex": "^[0-9]{2,4}$"
+  },
+  {
+    "nl": "Search for a string containing the substring 'ticket'.",
+    "regex": "^.*ticket.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'profile' is immediately followed by a six-digit id.",
+    "regex": "^.*profile\\d{6}.*$"
+  },
+  {
+    "nl": "Capture a string of four uppercase letters and four digits separated by a underscore.",
+    "regex": "^[A-Z]{4}_[0-9]{4}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'task' is immediately followed by a five-digit id.",
+    "regex": "^.*task\\d{5}.*$"
+  },
+  {
+    "nl": "Validate a string where the word 'config' is followed by one or more digits.",
+    "regex": "^.*config\\d+.*$"
+  },
+  {
+    "nl": "Validate a string made of one uppercase letter followed by three lowercase letters.",
+    "regex": "^[A-Z]{1}[a-z]{3}$"
+  },
+  {
+    "nl": "Validate the run of digits that appears right after a hash sign, using a positive lookbehind.",
+    "regex": "(?<=#)\\d+"
+  },
+  {
+    "nl": "Detect a string of between three and five alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{3,5}$"
+  },
+  {
+    "nl": "Search for a string of at least five word characters.",
+    "regex": "^\\w{5,}$"
+  },
+  {
+    "nl": "Find a string of three letters and two digits separated by a dot.",
+    "regex": "^[A-Za-z]{3}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string containing the substring 'job'.",
+    "regex": "^.*job.*$"
+  },
+  {
+    "nl": "Identify a string made of three lowercase letters followed by one digit.",
+    "regex": "^[a-z]{3}[0-9]{1}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'minute' is immediately followed by a four-digit id.",
+    "regex": "^.*minute\\d{4}.*$"
+  },
+  {
+    "nl": "Validate a string that is exactly the word 'city'.",
+    "regex": "^city$"
+  },
+  {
+    "nl": "Capture a string of exactly ten lowercase letters.",
+    "regex": "^[a-z]{10}$"
+  },
+  {
+    "nl": "Match a string where the substring 'date' is immediately followed by a two-digit id.",
+    "regex": "^.*date\\d{2}.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'day' is immediately followed by a four-digit id.",
+    "regex": "^.*day\\d{4}.*$"
+  },
+  {
+    "nl": "Validate a string where the substring 'month' is immediately followed by a five-digit id.",
+    "regex": "^.*month\\d{5}.*$"
+  },
+  {
+    "nl": "Validate a string where the substring 'stack' is immediately followed by a six-digit id.",
+    "regex": "^.*stack\\d{6}.*$"
+  },
+  {
+    "nl": "Capture a string that is exactly the word 'day'.",
+    "regex": "^day$"
+  },
+  {
+    "nl": "Search for a string containing the substring 'amount'.",
+    "regex": "^.*amount.*$"
+  },
+  {
+    "nl": "Match a string made of four uppercase letters followed by three lowercase letters.",
+    "regex": "^[A-Z]{4}[a-z]{3}$"
+  },
+  {
+    "nl": "Capture a string of exactly five lowercase letters.",
+    "regex": "^[a-z]{5}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'minute' is immediately followed by a four-digit id.",
+    "regex": "^.*minute\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that ends with the word 'minute'.",
+    "regex": "^.*minute$"
+  },
+  {
+    "nl": "Detect a string of three uppercase letters and four digits separated by a dot.",
+    "regex": "^[A-Z]{3}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Find a string where the substring 'batch' is immediately followed by a two-digit id.",
+    "regex": "^.*batch\\d{2}.*$"
+  },
+  {
+    "nl": "Identify a string that is exactly the word 'batch'.",
+    "regex": "^batch$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'profile'.",
+    "regex": "^.*\\d+profile.*$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'profile'.",
+    "regex": "^.*profile.*$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'temp'.",
+    "regex": "^.*temp.*$"
+  },
+  {
+    "nl": "Identify a string of two uppercase letters and two digits separated by a underscore.",
+    "regex": "^[A-Z]{2}_[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string of four letters and three digits separated by a colon.",
+    "regex": "^[A-Za-z]{4}:[0-9]{3}$"
+  },
+  {
+    "nl": "Extract a string of three uppercase letters and four digits separated by a colon.",
+    "regex": "^[A-Z]{3}:[0-9]{4}$"
+  },
+  {
+    "nl": "Capture a string of zero or more hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]*$"
+  },
+  {
+    "nl": "Test whether the input is a string of between two and four lowercase letters.",
+    "regex": "^[a-z]{2,4}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the word 'invoice' is followed by one or more digits.",
+    "regex": "^.*invoice\\d+.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'error' is immediately followed by a four-digit id.",
+    "regex": "^.*error\\d{4}.*$"
+  },
+  {
+    "nl": "Extract a string of two lowercase letters and four digits separated by a dot.",
+    "regex": "^[a-z]{2}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Extract a string made of three uppercase letters followed by three lowercase letters.",
+    "regex": "^[A-Z]{3}[a-z]{3}$"
+  },
+  {
+    "nl": "Match a string containing the substring 'beta'.",
+    "regex": "^.*beta.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of word characters that does not start with the word 'Error', using a negative lookahead.",
+    "regex": "^(?!Error)\\w+$"
+  },
+  {
+    "nl": "Test whether the input is a string of two letters and three digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{2}-[0-9]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string that is exactly the word 'test'.",
+    "regex": "^test$"
+  },
+  {
+    "nl": "Find a string where the word 'config' is followed by one or more digits.",
+    "regex": "^.*config\\d+.*$"
+  },
+  {
+    "nl": "Capture a string of two lowercase letters and three digits separated by a underscore.",
+    "regex": "^[a-z]{2}_[0-9]{3}$"
+  },
+  {
+    "nl": "Validate a string of two uppercase letters and two digits separated by a colon.",
+    "regex": "^[A-Z]{2}:[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'gamma' is immediately followed by a six-digit id.",
+    "regex": "^.*gamma\\d{6}.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'queue' is immediately followed by a four-digit id.",
+    "regex": "^.*queue\\d{4}.*$"
+  },
+  {
+    "nl": "Validate a string where one or more digits come immediately before the word 'year'.",
+    "regex": "^.*\\d+year.*$"
+  },
+  {
+    "nl": "Extract a string of one or more lowercase letters.",
+    "regex": "^[a-z]+$"
+  },
+  {
+    "nl": "Detect a string that is exactly the word 'date'.",
+    "regex": "^date$"
+  },
+  {
+    "nl": "Find a string of three uppercase letters and three digits separated by a hyphen.",
+    "regex": "^[A-Z]{3}-[0-9]{3}$"
+  },
+  {
+    "nl": "Detect a string of between four and eight hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{4,8}$"
+  },
+  {
+    "nl": "Detect the run of digits that comes right before the unit 'kg' (kilograms), using a positive lookahead.",
+    "regex": "\\d+(?=kg)"
+  },
+  {
+    "nl": "Match a string of four uppercase letters and four digits separated by a hyphen.",
+    "regex": "^[A-Z]{4}-[0-9]{4}$"
+  },
+  {
+    "nl": "Validate a string where the substring 'config' is immediately followed by a three-digit id.",
+    "regex": "^.*config\\d{3}.*$"
+  },
+  {
+    "nl": "Find a string of zero or more uppercase letters.",
+    "regex": "^[A-Z]*$"
+  },
+  {
+    "nl": "Search for a string that ends with the word 'admin'.",
+    "regex": "^.*admin$"
+  },
+  {
+    "nl": "Extract a string of four lowercase letters and four digits separated by a slash.",
+    "regex": "^[a-z]{4}/[0-9]{4}$"
+  },
+  {
+    "nl": "Extract a non-empty string that contains at least one digit somewhere, using a lookahead.",
+    "regex": "^(?=.*\\d).+$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly seven digits.",
+    "regex": "^[0-9]{7}$"
+  },
+  {
+    "nl": "Identify a string containing the standalone whole word 'stack'.",
+    "regex": "^.*\\bstack\\b.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'batch' is immediately followed by a six-digit id.",
+    "regex": "^.*batch\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly one letter.",
+    "regex": "^[A-Za-z]{1}$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'month'.",
+    "regex": "^.*\\d+month.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'report' is immediately followed by a two-digit id.",
+    "regex": "^.*report\\d{2}.*$"
+  },
+  {
+    "nl": "Extract a string where the word 'address' is followed by one or more digits.",
+    "regex": "^.*address\\d+.*$"
+  },
+  {
+    "nl": "Find a string of four lowercase letters and three digits separated by a dot.",
+    "regex": "^[a-z]{4}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Check if the input is a string of between one and three uppercase letters.",
+    "regex": "^[A-Z]{1,3}$"
+  },
+  {
+    "nl": "Match a two-decimal amount that follows an at sign, using a positive lookbehind.",
+    "regex": "(?<=@)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Test whether the input is a string made of three uppercase letters followed by three digits.",
+    "regex": "^[A-Z]{3}[0-9]{3}$"
+  },
+  {
+    "nl": "Check if the input is a string that starts with the word 'token'.",
+    "regex": "^token.*$"
+  },
+  {
+    "nl": "Search for a string of at least one whitespace character.",
+    "regex": "^\\s{1,}$"
+  },
+  {
+    "nl": "Check if the input is a string made of four uppercase letters followed by four digits.",
+    "regex": "^[A-Z]{4}[0-9]{4}$"
+  },
+  {
+    "nl": "Validate a string containing the same digit repeated five times in a row.",
+    "regex": "^.*(\\d)\\1{4}.*$"
+  },
+  {
+    "nl": "Match a string of exactly one word character.",
+    "regex": "^\\w{1}$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'hour'.",
+    "regex": "^.*\\bhour\\b.*$"
+  },
+  {
+    "nl": "Capture a string that is exactly the word 'hour'.",
+    "regex": "^hour$"
+  },
+  {
+    "nl": "Find a string where the substring 'month' is immediately followed by a five-digit id.",
+    "regex": "^.*month\\d{5}.*$"
+  },
+  {
+    "nl": "Check if the input is a string where one or more digits come immediately before the word 'country'.",
+    "regex": "^.*\\d+country.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'phone' is immediately followed by a six-digit id.",
+    "regex": "^.*phone\\d{6}.*$"
+  },
+  {
+    "nl": "Validate a string made of one uppercase letter followed by four digits.",
+    "regex": "^[A-Z]{1}[0-9]{4}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'login' is immediately followed by a three-digit id.",
+    "regex": "^.*login\\d{3}.*$"
+  },
+  {
+    "nl": "Extract a string that ends with the word 'time'.",
+    "regex": "^.*time$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'admin'.",
+    "regex": "^admin.*$"
+  },
+  {
+    "nl": "Search for a string of three letters and four digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{3}-[0-9]{4}$"
+  },
+  {
+    "nl": "Validate a string containing the standalone whole word 'batch'.",
+    "regex": "^.*\\bbatch\\b.*$"
+  },
+  {
+    "nl": "Validate a string that is exactly the word 'item'.",
+    "regex": "^item$"
+  },
+  {
+    "nl": "Test whether the input is a string that ends with the word 'state'.",
+    "regex": "^.*state$"
+  },
+  {
+    "nl": "Search for a string containing the substring 'temp'.",
+    "regex": "^.*temp.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'ticket' is immediately followed by a four-digit id.",
+    "regex": "^.*ticket\\d{4}.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'level' is immediately followed by a two-digit id.",
+    "regex": "^.*level\\d{2}.*$"
+  },
+  {
+    "nl": "Validate a string of exactly six lowercase letters.",
+    "regex": "^[a-z]{6}$"
+  },
+  {
+    "nl": "Capture a string of four uppercase letters and two digits separated by a dot.",
+    "regex": "^[A-Z]{4}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Search for a string of one or more word characters.",
+    "regex": "^\\w+$"
+  },
+  {
+    "nl": "Extract a string made of one letter followed by two digits.",
+    "regex": "^[A-Za-z]{1}[0-9]{2}$"
+  },
+  {
+    "nl": "Match a string where the substring 'task' is immediately followed by a four-digit id.",
+    "regex": "^.*task\\d{4}.*$"
+  },
+  {
+    "nl": "Search for a string that is exactly the word 'stack'.",
+    "regex": "^stack$"
+  },
+  {
+    "nl": "Find a string containing the substring 'temp'.",
+    "regex": "^.*temp.*$"
+  },
+  {
+    "nl": "Detect a string containing the substring 'token'.",
+    "regex": "^.*token.*$"
+  },
+  {
+    "nl": "Find a string that ends with the word 'batch'.",
+    "regex": "^.*batch$"
+  },
+  {
+    "nl": "Detect a string made of four uppercase letters followed by four lowercase letters.",
+    "regex": "^[A-Z]{4}[a-z]{4}$"
+  },
+  {
+    "nl": "Match a string of three letters and two digits separated by a colon.",
+    "regex": "^[A-Za-z]{3}:[0-9]{2}$"
+  },
+  {
+    "nl": "a line that is blank or contains only whitespace",
+    "regex": "^\\s*$"
+  },
+  {
+    "nl": "Validate a string of at least two digits.",
+    "regex": "^[0-9]{2,}$"
+  },
+  {
+    "nl": "Find a string containing the standalone whole word 'time'.",
+    "regex": "^.*\\btime\\b.*$"
+  },
+  {
+    "nl": "Validate a string containing the substring 'address'.",
+    "regex": "^.*address.*$"
+  },
+  {
+    "nl": "Search for a string of zero or more alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]*$"
+  },
+  {
+    "nl": "Identify a string of two uppercase letters and three digits separated by a hyphen.",
+    "regex": "^[A-Z]{2}-[0-9]{3}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'phone' is immediately followed by a two-digit id.",
+    "regex": "^.*phone\\d{2}.*$"
+  },
+  {
+    "nl": "Detect a string made of four uppercase letters followed by one lowercase letter.",
+    "regex": "^[A-Z]{4}[a-z]{1}$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'level'.",
+    "regex": "^level.*$"
+  },
+  {
+    "nl": "Validate a string of between five and ten uppercase letters.",
+    "regex": "^[A-Z]{5,10}$"
+  },
+  {
+    "nl": "Validate a string that ends with the word 'level'.",
+    "regex": "^.*level$"
+  },
+  {
+    "nl": "Check if the input is the run of digits that appears right after a hash sign, using a positive lookbehind.",
+    "regex": "(?<=#)\\d+"
+  },
+  {
+    "nl": "Extract a string of between one and three uppercase letters.",
+    "regex": "^[A-Z]{1,3}$"
+  },
+  {
+    "nl": "Detect a string where the substring 'level' is immediately followed by a three-digit id.",
+    "regex": "^.*level\\d{3}.*$"
+  },
+  {
+    "nl": "Validate a string of at least five whitespace characters.",
+    "regex": "^\\s{5,}$"
+  },
+  {
+    "nl": "Search for a string of exactly twelve digits.",
+    "regex": "^[0-9]{12}$"
+  },
+  {
+    "nl": "Validate a string of exactly two uppercase letters.",
+    "regex": "^[A-Z]{2}$"
+  },
+  {
+    "nl": "Identify a string of four letters and two digits separated by a colon.",
+    "regex": "^[A-Za-z]{4}:[0-9]{2}$"
+  },
+  {
+    "nl": "Find a string that starts with the word 'beta'.",
+    "regex": "^beta.*$"
+  },
+  {
+    "nl": "Extract a string of one or more vowels.",
+    "regex": "^[aeiou]+$"
+  },
+  {
+    "nl": "Capture a string where the substring 'code' is immediately followed by a six-digit id.",
+    "regex": "^.*code\\d{6}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where the word 'job' is followed by one or more digits.",
+    "regex": "^.*job\\d+.*$"
+  },
+  {
+    "nl": "Identify a string of three uppercase letters and three digits separated by a colon.",
+    "regex": "^[A-Z]{3}:[0-9]{3}$"
+  },
+  {
+    "nl": "Search for the run of digits that comes right before the unit 'mb' (megabytes), using a positive lookahead.",
+    "regex": "\\d+(?=mb)"
+  },
+  {
+    "nl": "Validate a string where the substring 'temp' is immediately followed by a four-digit id.",
+    "regex": "^.*temp\\d{4}.*$"
+  },
+  {
+    "nl": "Find a string of two letters and three digits separated by a slash.",
+    "regex": "^[A-Za-z]{2}/[0-9]{3}$"
+  },
+  {
+    "nl": "Find a string where the word 'beta' is followed by one or more digits.",
+    "regex": "^.*beta\\d+.*$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly six lowercase letters.",
+    "regex": "^[a-z]{6}$"
+  },
+  {
+    "nl": "Match a string where the substring 'state' is immediately followed by a six-digit id.",
+    "regex": "^.*state\\d{6}.*$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'city'.",
+    "regex": "^.*\\d+city.*$"
+  },
+  {
+    "nl": "Capture a string that starts with the word 'job'.",
+    "regex": "^job.*$"
+  },
+  {
+    "nl": "Detect a string where the word 'data' is followed by one or more digits.",
+    "regex": "^.*data\\d+.*$"
+  },
+  {
+    "nl": "Capture a string that ends with the word 'month'.",
+    "regex": "^.*month$"
+  },
+  {
+    "nl": "Extract a string containing the substring 'amount'.",
+    "regex": "^.*amount.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'price' is immediately followed by a four-digit id.",
+    "regex": "^.*price\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'token'.",
+    "regex": "^.*\\d+token.*$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'phone'.",
+    "regex": "^.*\\bphone\\b.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'ticket' is immediately followed by a five-digit id.",
+    "regex": "^.*ticket\\d{5}.*$"
+  },
+  {
+    "nl": "Validate a string of word characters that does not start with the word 'Test', using a negative lookahead.",
+    "regex": "^(?!Test)\\w+$"
+  },
+  {
+    "nl": "Identify a string where one or more digits come immediately before the word 'job'.",
+    "regex": "^.*\\d+job.*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the substring 'city'.",
+    "regex": "^.*city.*$"
+  },
+  {
+    "nl": "Extract a string of four lowercase letters and two digits separated by a dot.",
+    "regex": "^[a-z]{4}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string of between one and three hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{1,3}$"
+  },
+  {
+    "nl": "Identify a string of exactly twelve alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{12}$"
+  },
+  {
+    "nl": "Identify a string that ends with the word 'city'.",
+    "regex": "^.*city$"
+  },
+  {
+    "nl": "Extract a string that starts with the word 'edge'.",
+    "regex": "^edge.*$"
+  },
+  {
+    "nl": "Match a string containing the substring 'invoice'.",
+    "regex": "^.*invoice.*$"
+  },
+  {
+    "nl": "Validate a string where the substring 'total' is immediately followed by a three-digit id.",
+    "regex": "^.*total\\d{3}.*$"
+  },
+  {
+    "nl": "Identify a string where the word 'phone' is followed by one or more digits.",
+    "regex": "^.*phone\\d+.*$"
+  },
+  {
+    "nl": "Validate a string that starts with the word 'email'.",
+    "regex": "^email.*$"
+  },
+  {
+    "nl": "Find a string that ends with the word 'report'.",
+    "regex": "^.*report$"
+  },
+  {
+    "nl": "Find a two-decimal amount that follows an at sign, using a positive lookbehind.",
+    "regex": "(?<=@)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Find a string where the substring 'report' is immediately followed by a five-digit id.",
+    "regex": "^.*report\\d{5}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of four uppercase letters and three digits separated by a dot.",
+    "regex": "^[A-Z]{4}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Detect a string where the substring 'state' is immediately followed by a three-digit id.",
+    "regex": "^.*state\\d{3}.*$"
+  },
+  {
+    "nl": "Match a string of at least three letters.",
+    "regex": "^[A-Za-z]{3,}$"
+  },
+  {
+    "nl": "Check if the input is the run of digits that comes right before the unit 'ms' (milliseconds), using a positive lookahead.",
+    "regex": "\\d+(?=ms)"
+  },
+  {
+    "nl": "Extract a string of exactly four uppercase letters.",
+    "regex": "^[A-Z]{4}$"
+  },
+  {
+    "nl": "Check if the input is a string of two uppercase letters and two digits separated by a colon.",
+    "regex": "^[A-Z]{2}:[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string of three uppercase letters and two digits separated by a dot.",
+    "regex": "^[A-Z]{3}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string of exactly twelve word characters.",
+    "regex": "^\\w{12}$"
+  },
+  {
+    "nl": "Match a string of exactly four alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{4}$"
+  },
+  {
+    "nl": "Identify a string of three uppercase letters and three digits separated by a underscore.",
+    "regex": "^[A-Z]{3}_[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string of four uppercase letters and two digits separated by a slash.",
+    "regex": "^[A-Z]{4}/[0-9]{2}$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'account'.",
+    "regex": "^.*\\d+account.*$"
+  },
+  {
+    "nl": "Detect a string of zero or more whitespace characters.",
+    "regex": "^\\s*$"
+  },
+  {
+    "nl": "Check if the input is a two-decimal amount that follows an at sign, using a positive lookbehind.",
+    "regex": "(?<=@)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Find a string that starts with the word 'session'.",
+    "regex": "^session.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'test' is immediately followed by a four-digit id.",
+    "regex": "^.*test\\d{4}.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'hour' is immediately followed by a four-digit id.",
+    "regex": "^.*hour\\d{4}.*$"
+  },
+  {
+    "nl": "Capture a string of exactly four digits.",
+    "regex": "^[0-9]{4}$"
+  },
+  {
+    "nl": "a sequence of one or more words separated by single spaces",
+    "regex": "^\\w+(?:\\s\\w+)*$"
+  },
+  {
+    "nl": "Test whether the input is a string of one or more consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]+$"
+  },
+  {
+    "nl": "Check if the input is a string containing the substring 'cache'.",
+    "regex": "^.*cache.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'time' is immediately followed by a four-digit id.",
+    "regex": "^.*time\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string that ends with the word 'time'.",
+    "regex": "^.*time$"
+  },
+  {
+    "nl": "Detect a string of exactly three consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]{3}$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'code'.",
+    "regex": "^.*\\bcode\\b.*$"
+  },
+  {
+    "nl": "Extract a string where the substring 'city' is immediately followed by a six-digit id.",
+    "regex": "^.*city\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that is exactly the word 'config'.",
+    "regex": "^config$"
+  },
+  {
+    "nl": "Find a string where the word 'invoice' is followed by one or more digits.",
+    "regex": "^.*invoice\\d+.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'error' is immediately followed by a three-digit id.",
+    "regex": "^.*error\\d{3}.*$"
+  },
+  {
+    "nl": "Check if the input is a string of at least one digit.",
+    "regex": "^[0-9]{1,}$"
+  },
+  {
+    "nl": "Extract a string where the word 'item' is followed by one or more digits.",
+    "regex": "^.*item\\d+.*$"
+  },
+  {
+    "nl": "Find a string of one or more lowercase letters.",
+    "regex": "^[a-z]+$"
+  },
+  {
+    "nl": "Test whether the input is a string of four lowercase letters and two digits separated by a slash.",
+    "regex": "^[a-z]{4}/[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'gamma' is immediately followed by a three-digit id.",
+    "regex": "^.*gamma\\d{3}.*$"
+  },
+  {
+    "nl": "Extract a string that is exactly the word 'time'.",
+    "regex": "^time$"
+  },
+  {
+    "nl": "Search for a string where the substring 'gamma' is immediately followed by a four-digit id.",
+    "regex": "^.*gamma\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'year' is immediately followed by a four-digit id.",
+    "regex": "^.*year\\d{4}.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'token' is immediately followed by a five-digit id.",
+    "regex": "^.*token\\d{5}.*$"
+  },
+  {
+    "nl": "Validate a string where the substring 'report' is immediately followed by a six-digit id.",
+    "regex": "^.*report\\d{6}.*$"
+  },
+  {
+    "nl": "Capture a string of exactly two vowels.",
+    "regex": "^[aeiou]{2}$"
+  },
+  {
+    "nl": "Search for a string where the substring 'invoice' is immediately followed by a six-digit id.",
+    "regex": "^.*invoice\\d{6}.*$"
+  },
+  {
+    "nl": "Extract a string of exactly three letters.",
+    "regex": "^[A-Za-z]{3}$"
+  },
+  {
+    "nl": "Validate a string of between three and five hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{3,5}$"
+  },
+  {
+    "nl": "Detect a string where the substring 'amount' is immediately followed by a five-digit id.",
+    "regex": "^.*amount\\d{5}.*$"
+  },
+  {
+    "nl": "Match a string made of two letters followed by two digits.",
+    "regex": "^[A-Za-z]{2}[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string containing the standalone whole word 'country'.",
+    "regex": "^.*\\bcountry\\b.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'session' is immediately followed by a four-digit id.",
+    "regex": "^.*session\\d{4}.*$"
+  },
+  {
+    "nl": "Validate a string made of four letters followed by three digits.",
+    "regex": "^[A-Za-z]{4}[0-9]{3}$"
+  },
+  {
+    "nl": "Search for a string of between two and four whitespace characters.",
+    "regex": "^\\s{2,4}$"
+  },
+  {
+    "nl": "Search for a string where the substring 'token' is immediately followed by a six-digit id.",
+    "regex": "^.*token\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly four word characters.",
+    "regex": "^\\w{4}$"
+  },
+  {
+    "nl": "Validate a string made of one lowercase letter followed by one digit.",
+    "regex": "^[a-z]{1}[0-9]{1}$"
+  },
+  {
+    "nl": "Extract a string made of four letters followed by three digits.",
+    "regex": "^[A-Za-z]{4}[0-9]{3}$"
+  },
+  {
+    "nl": "Extract a string that starts with the word 'date'.",
+    "regex": "^date.*$"
+  },
+  {
+    "nl": "Find a string made of one lowercase letter followed by four digits.",
+    "regex": "^[a-z]{1}[0-9]{4}$"
+  },
+  {
+    "nl": "Search for a string where the substring 'task' is immediately followed by a six-digit id.",
+    "regex": "^.*task\\d{6}.*$"
+  },
+  {
+    "nl": "Extract a string of three letters and three digits separated by a slash.",
+    "regex": "^[A-Za-z]{3}/[0-9]{3}$"
+  },
+  {
+    "nl": "Match a string where the substring 'graph' is immediately followed by a four-digit id.",
+    "regex": "^.*graph\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that is exactly the word 'code'.",
+    "regex": "^code$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'invoice' is immediately followed by a five-digit id.",
+    "regex": "^.*invoice\\d{5}.*$"
+  },
+  {
+    "nl": "Capture a string that is exactly the word 'address'.",
+    "regex": "^address$"
+  },
+  {
+    "nl": "Capture a string where one or more digits come immediately before the word 'month'.",
+    "regex": "^.*\\d+month.*$"
+  },
+  {
+    "nl": "Test whether the input is a string that ends with the word 'task'.",
+    "regex": "^.*task$"
+  },
+  {
+    "nl": "Search for a string of four uppercase letters and four digits separated by a slash.",
+    "regex": "^[A-Z]{4}/[0-9]{4}$"
+  },
+  {
+    "nl": "Find a string where one or more digits come immediately before the word 'email'.",
+    "regex": "^.*\\d+email.*$"
+  },
+  {
+    "nl": "Extract a string of two letters and three digits separated by a slash.",
+    "regex": "^[A-Za-z]{2}/[0-9]{3}$"
+  },
+  {
+    "nl": "Check if the input is a string of word characters that does not start with the word 'Code', using a negative lookahead.",
+    "regex": "^(?!Code)\\w+$"
+  },
+  {
+    "nl": "Search for a string of two uppercase letters and four digits separated by a slash.",
+    "regex": "^[A-Z]{2}/[0-9]{4}$"
+  },
+  {
+    "nl": "Search for a string where one or more digits come immediately before the word 'batch'.",
+    "regex": "^.*\\d+batch.*$"
+  },
+  {
+    "nl": "Extract a string where the substring 'month' is immediately followed by a two-digit id.",
+    "regex": "^.*month\\d{2}.*$"
+  },
+  {
+    "nl": "Find a string made of one uppercase letter followed by two digits.",
+    "regex": "^[A-Z]{1}[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'error' is immediately followed by a five-digit id.",
+    "regex": "^.*error\\d{5}.*$"
+  },
+  {
+    "nl": "Validate a string of four uppercase letters and three digits separated by a underscore.",
+    "regex": "^[A-Z]{4}_[0-9]{3}$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly five whitespace characters.",
+    "regex": "^\\s{5}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'edge' is immediately followed by a two-digit id.",
+    "regex": "^.*edge\\d{2}.*$"
+  },
+  {
+    "nl": "Search for a string of zero or more lowercase letters.",
+    "regex": "^[a-z]*$"
+  },
+  {
+    "nl": "Search for a string of exactly one word character.",
+    "regex": "^\\w{1}$"
+  },
+  {
+    "nl": "Match a string made of two lowercase letters followed by one digit.",
+    "regex": "^[a-z]{2}[0-9]{1}$"
+  },
+  {
+    "nl": "Search for a string of word characters that does not start with the word 'Temp', using a negative lookahead.",
+    "regex": "^(?!Temp)\\w+$"
+  },
+  {
+    "nl": "Capture a string containing the standalone whole word 'task'.",
+    "regex": "^.*\\btask\\b.*$"
+  },
+  {
+    "nl": "Search for a string of at least eight lowercase letters.",
+    "regex": "^[a-z]{8,}$"
+  },
+  {
+    "nl": "Detect a string where the word 'date' is followed by one or more digits.",
+    "regex": "^.*date\\d+.*$"
+  },
+  {
+    "nl": "Capture a string of three uppercase letters and four digits separated by a slash.",
+    "regex": "^[A-Z]{3}/[0-9]{4}$"
+  },
+  {
+    "nl": "Validate a string of four uppercase letters and four digits separated by a colon.",
+    "regex": "^[A-Z]{4}:[0-9]{4}$"
+  },
+  {
+    "nl": "Extract a string that is exactly the word 'error'.",
+    "regex": "^error$"
+  },
+  {
+    "nl": "Detect a string where the substring 'date' is immediately followed by a five-digit id.",
+    "regex": "^.*date\\d{5}.*$"
+  },
+  {
+    "nl": "Detect a string of four uppercase letters and two digits separated by a dot.",
+    "regex": "^[A-Z]{4}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string of two lowercase letters and three digits separated by a dot.",
+    "regex": "^[a-z]{2}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Validate a string where the substring 'total' is immediately followed by a four-digit id.",
+    "regex": "^.*total\\d{4}.*$"
+  },
+  {
+    "nl": "Match a string of four lowercase letters and three digits separated by a colon.",
+    "regex": "^[a-z]{4}:[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string of at least eight hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{8,}$"
+  },
+  {
+    "nl": "Test whether the input is a string of two uppercase letters and four digits separated by a hyphen.",
+    "regex": "^[A-Z]{2}-[0-9]{4}$"
+  },
+  {
+    "nl": "Match a string containing the standalone whole word 'admin'.",
+    "regex": "^.*\\badmin\\b.*$"
+  },
+  {
+    "nl": "Find a string of exactly seven whitespace characters.",
+    "regex": "^\\s{7}$"
+  },
+  {
+    "nl": "Capture a string where the word 'test' is followed by one or more digits.",
+    "regex": "^.*test\\d+.*$"
+  },
+  {
+    "nl": "Check if the input is a string made of two uppercase letters followed by three lowercase letters.",
+    "regex": "^[A-Z]{2}[a-z]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string that ends with the word 'item'.",
+    "regex": "^.*item$"
+  },
+  {
+    "nl": "Detect a string of two uppercase letters and four digits separated by a slash.",
+    "regex": "^[A-Z]{2}/[0-9]{4}$"
+  },
+  {
+    "nl": "Search for a string of exactly one letter.",
+    "regex": "^[A-Za-z]{1}$"
+  },
+  {
+    "nl": "Identify a string made of three uppercase letters followed by two lowercase letters.",
+    "regex": "^[A-Z]{3}[a-z]{2}$"
+  },
+  {
+    "nl": "Validate a string of at least two word characters.",
+    "regex": "^\\w{2,}$"
+  },
+  {
+    "nl": "Detect a string containing the substring 'date'.",
+    "regex": "^.*date.*$"
+  },
+  {
+    "nl": "Detect a string of exactly three special characters.",
+    "regex": "^[!@#$%^&*]{3}$"
+  },
+  {
+    "nl": "Extract a string where one or more digits come immediately before the word 'test'.",
+    "regex": "^.*\\d+test.*$"
+  },
+  {
+    "nl": "Find a string of four letters and two digits separated by a dot.",
+    "regex": "^[A-Za-z]{4}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string of at least three lowercase letters.",
+    "regex": "^[a-z]{3,}$"
+  },
+  {
+    "nl": "Match a string of exactly four punctuation marks.",
+    "regex": "^[.,;:!?]{4}$"
+  },
+  {
+    "nl": "Capture a string of four uppercase letters and three digits separated by a hyphen.",
+    "regex": "^[A-Z]{4}-[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string of exactly seven uppercase letters.",
+    "regex": "^[A-Z]{7}$"
+  },
+  {
+    "nl": "Match a string where the substring 'account' is immediately followed by a five-digit id.",
+    "regex": "^.*account\\d{5}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that ends with the word 'day'.",
+    "regex": "^.*day$"
+  },
+  {
+    "nl": "Search for a string where the substring 'user' is immediately followed by a two-digit id.",
+    "regex": "^.*user\\d{2}.*$"
+  },
+  {
+    "nl": "Identify a string of at least two word characters.",
+    "regex": "^\\w{2,}$"
+  },
+  {
+    "nl": "Find a string where one or more digits come immediately before the word 'month'.",
+    "regex": "^.*\\d+month.*$"
+  },
+  {
+    "nl": "Search for a string where one or more digits come immediately before the word 'country'.",
+    "regex": "^.*\\d+country.*$"
+  },
+  {
+    "nl": "Match a string containing the standalone whole word 'item'.",
+    "regex": "^.*\\bitem\\b.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'alpha' is immediately followed by a two-digit id.",
+    "regex": "^.*alpha\\d{2}.*$"
+  },
+  {
+    "nl": "Identify a string containing the substring 'ticket'.",
+    "regex": "^.*ticket.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'price' is immediately followed by a five-digit id.",
+    "regex": "^.*price\\d{5}.*$"
+  },
+  {
+    "nl": "Search for a string that starts with the word 'edge'.",
+    "regex": "^edge.*$"
+  },
+  {
+    "nl": "Identify a string where one or more digits come immediately before the word 'item'.",
+    "regex": "^.*\\d+item.*$"
+  },
+  {
+    "nl": "Extract a string that starts with the word 'report'.",
+    "regex": "^report.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'country' is immediately followed by a five-digit id.",
+    "regex": "^.*country\\d{5}.*$"
+  },
+  {
+    "nl": "Extract a string of exactly ten alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{10}$"
+  },
+  {
+    "nl": "Find a string where the word 'city' is followed by one or more digits.",
+    "regex": "^.*city\\d+.*$"
+  },
+  {
+    "nl": "Identify a string containing the standalone whole word 'minute'.",
+    "regex": "^.*\\bminute\\b.*$"
+  },
+  {
+    "nl": "Validate a string containing the substring 'temp'.",
+    "regex": "^.*temp.*$"
+  },
+  {
+    "nl": "Identify a string of at least one whitespace character.",
+    "regex": "^\\s{1,}$"
+  },
+  {
+    "nl": "Validate a string of at least one alphanumeric character.",
+    "regex": "^[A-Za-z0-9]{1,}$"
+  },
+  {
+    "nl": "Search for a string of one or more consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]+$"
+  },
+  {
+    "nl": "Match a string of between two and six lowercase letters.",
+    "regex": "^[a-z]{2,6}$"
+  },
+  {
+    "nl": "Identify a string of three uppercase letters and four digits separated by a underscore.",
+    "regex": "^[A-Z]{3}_[0-9]{4}$"
+  },
+  {
+    "nl": "Match a string of two letters and three digits separated by a colon.",
+    "regex": "^[A-Za-z]{2}:[0-9]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string of three uppercase letters and three digits separated by a colon.",
+    "regex": "^[A-Z]{3}:[0-9]{3}$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'country'.",
+    "regex": "^.*\\d+country.*$"
+  },
+  {
+    "nl": "Capture a string of exactly four consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]{4}$"
+  },
+  {
+    "nl": "Validate a string of exactly ten digits.",
+    "regex": "^[0-9]{10}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'stack' is immediately followed by a two-digit id.",
+    "regex": "^.*stack\\d{2}.*$"
+  },
+  {
+    "nl": "Search for a string of three letters and four digits separated by a underscore.",
+    "regex": "^[A-Za-z]{3}_[0-9]{4}$"
+  },
+  {
+    "nl": "Detect a string of exactly six hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{6}$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'ticket'.",
+    "regex": "^.*\\bticket\\b.*$"
+  },
+  {
+    "nl": "Validate a string containing the standalone whole word 'temp'.",
+    "regex": "^.*\\btemp\\b.*$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly three word characters.",
+    "regex": "^\\w{3}$"
+  },
+  {
+    "nl": "Check if the input is a string where one or more digits come immediately before the word 'graph'.",
+    "regex": "^.*\\d+graph.*$"
+  },
+  {
+    "nl": "Extract a string of exactly twelve alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{12}$"
+  },
+  {
+    "nl": "Match a string made of four uppercase letters followed by four lowercase letters.",
+    "regex": "^[A-Z]{4}[a-z]{4}$"
+  },
+  {
+    "nl": "Extract a string containing the same digit repeated five times in a row.",
+    "regex": "^.*(\\d)\\1{4}.*$"
+  },
+  {
+    "nl": "Find a string containing the standalone whole word 'total'.",
+    "regex": "^.*\\btotal\\b.*$"
+  },
+  {
+    "nl": "Check if the input is a string of three uppercase letters and three digits separated by a hyphen.",
+    "regex": "^[A-Z]{3}-[0-9]{3}$"
+  },
+  {
+    "nl": "Detect a string where the substring 'queue' is immediately followed by a four-digit id.",
+    "regex": "^.*queue\\d{4}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly three digits.",
+    "regex": "^[0-9]{3}$"
+  },
+  {
+    "nl": "Identify a string of four lowercase letters and four digits separated by a colon.",
+    "regex": "^[a-z]{4}:[0-9]{4}$"
+  },
+  {
+    "nl": "Search for a string that is exactly the word 'gamma'.",
+    "regex": "^gamma$"
+  },
+  {
+    "nl": "Match a string containing the substring 'node'.",
+    "regex": "^.*node.*$"
+  },
+  {
+    "nl": "Capture a string containing the same character repeated five times in a row.",
+    "regex": "^.*(\\w)\\1{4}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'batch'.",
+    "regex": "^batch.*$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'edge'.",
+    "regex": "^.*\\d+edge.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'token' is immediately followed by a five-digit id.",
+    "regex": "^.*token\\d{5}.*$"
+  },
+  {
+    "nl": "Detect a string that starts with the word 'flag'.",
+    "regex": "^flag.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of four uppercase letters and two digits separated by a underscore.",
+    "regex": "^[A-Z]{4}_[0-9]{2}$"
+  },
+  {
+    "nl": "Search for a string of exactly ten alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{10}$"
+  },
+  {
+    "nl": "Detect a string of one or more consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]+$"
+  },
+  {
+    "nl": "Test whether the input is a string where the word 'beta' is followed by one or more digits.",
+    "regex": "^.*beta\\d+.*$"
+  },
+  {
+    "nl": "Identify a string that ends with the word 'test'.",
+    "regex": "^.*test$"
+  },
+  {
+    "nl": "Validate a string of exactly three special characters.",
+    "regex": "^[!@#$%^&*]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'session'.",
+    "regex": "^session.*$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'code'.",
+    "regex": "^.*\\d+code.*$"
+  },
+  {
+    "nl": "Extract a string where the substring 'edge' is immediately followed by a five-digit id.",
+    "regex": "^.*edge\\d{5}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where one or more digits come immediately before the word 'admin'.",
+    "regex": "^.*\\d+admin.*$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'batch'.",
+    "regex": "^.*\\bbatch\\b.*$"
+  },
+  {
+    "nl": "Identify a string made of two letters followed by three digits.",
+    "regex": "^[A-Za-z]{2}[0-9]{3}$"
+  },
+  {
+    "nl": "Search for a string of at least three word characters.",
+    "regex": "^\\w{3,}$"
+  },
+  {
+    "nl": "Extract a string of one or more alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]+$"
+  },
+  {
+    "nl": "Capture a string made of four uppercase letters followed by one digit.",
+    "regex": "^[A-Z]{4}[0-9]{1}$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly eight lowercase letters.",
+    "regex": "^[a-z]{8}$"
+  },
+  {
+    "nl": "Capture a string that is exactly the word 'stack'.",
+    "regex": "^stack$"
+  },
+  {
+    "nl": "Detect a string of two letters and four digits separated by a slash.",
+    "regex": "^[A-Za-z]{2}/[0-9]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'flag' is immediately followed by a six-digit id.",
+    "regex": "^.*flag\\d{6}.*$"
+  },
+  {
+    "nl": "Search for a string of between five and ten whitespace characters.",
+    "regex": "^\\s{5,10}$"
+  },
+  {
+    "nl": "Check if the input is a string containing the substring 'login'.",
+    "regex": "^.*login.*$"
+  },
+  {
+    "nl": "Find a string of exactly twelve whitespace characters.",
+    "regex": "^\\s{12}$"
+  },
+  {
+    "nl": "Test whether the input is a string of word characters that does not start with the word 'Cache', using a negative lookahead.",
+    "regex": "^(?!Cache)\\w+$"
+  },
+  {
+    "nl": "Find a string of two lowercase letters and three digits separated by a slash.",
+    "regex": "^[a-z]{2}/[0-9]{3}$"
+  },
+  {
+    "nl": "Detect a string containing the substring 'data'.",
+    "regex": "^.*data.*$"
+  },
+  {
+    "nl": "Capture a string of exactly two special characters.",
+    "regex": "^[!@#$%^&*]{2}$"
+  },
+  {
+    "nl": "Extract a string of at least one lowercase letter.",
+    "regex": "^[a-z]{1,}$"
+  },
+  {
+    "nl": "Match a string where the substring 'country' is immediately followed by a two-digit id.",
+    "regex": "^.*country\\d{2}.*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the substring 'country'.",
+    "regex": "^.*country.*$"
+  },
+  {
+    "nl": "Search for a string where one or more digits come immediately before the word 'cache'.",
+    "regex": "^.*\\d+cache.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of word characters that does not start with the word 'Config', using a negative lookahead.",
+    "regex": "^(?!Config)\\w+$"
+  },
+  {
+    "nl": "Identify a string of between two and four letters.",
+    "regex": "^[A-Za-z]{2,4}$"
+  },
+  {
+    "nl": "Detect a string where the word 'country' is followed by one or more digits.",
+    "regex": "^.*country\\d+.*$"
+  },
+  {
+    "nl": "Validate a string containing the same character repeated four times in a row.",
+    "regex": "^.*(\\w)\\1{3}.*$"
+  },
+  {
+    "nl": "Match a string containing the standalone whole word 'gamma'.",
+    "regex": "^.*\\bgamma\\b.*$"
+  },
+  {
+    "nl": "Match a string containing the substring 'day'.",
+    "regex": "^.*day.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'order' is immediately followed by a five-digit id.",
+    "regex": "^.*order\\d{5}.*$"
+  },
+  {
+    "nl": "Validate a string of exactly twelve letters.",
+    "regex": "^[A-Za-z]{12}$"
+  },
+  {
+    "nl": "Detect a string that ends with the word 'ticket'.",
+    "regex": "^.*ticket$"
+  },
+  {
+    "nl": "Find a string of three lowercase letters and four digits separated by a slash.",
+    "regex": "^[a-z]{3}/[0-9]{4}$"
+  },
+  {
+    "nl": "Detect a string that starts with the word 'session'.",
+    "regex": "^session.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where the word 'code' is followed by one or more digits.",
+    "regex": "^.*code\\d+.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'code' is immediately followed by a six-digit id.",
+    "regex": "^.*code\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string of four uppercase letters and three digits separated by a slash.",
+    "regex": "^[A-Z]{4}/[0-9]{3}$"
+  },
+  {
+    "nl": "Find a string containing the substring 'total'.",
+    "regex": "^.*total.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'day' is immediately followed by a six-digit id.",
+    "regex": "^.*day\\d{6}.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'year' is immediately followed by a three-digit id.",
+    "regex": "^.*year\\d{3}.*$"
+  },
+  {
+    "nl": "Capture a string where one or more digits come immediately before the word 'order'.",
+    "regex": "^.*\\d+order.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'stack' is immediately followed by a six-digit id.",
+    "regex": "^.*stack\\d{6}.*$"
+  },
+  {
+    "nl": "Identify a string that ends with the word 'state'.",
+    "regex": "^.*state$"
+  },
+  {
+    "nl": "Detect a string of two letters and two digits separated by a colon.",
+    "regex": "^[A-Za-z]{2}:[0-9]{2}$"
+  },
+  {
+    "nl": "Detect a string of exactly six letters.",
+    "regex": "^[A-Za-z]{6}$"
+  },
+  {
+    "nl": "Search for a string of exactly twelve alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{12}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'level' is immediately followed by a six-digit id.",
+    "regex": "^.*level\\d{6}.*$"
+  },
+  {
+    "nl": "Search for a string containing the substring 'config'.",
+    "regex": "^.*config.*$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly ten digits.",
+    "regex": "^[0-9]{10}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'gamma' is immediately followed by a two-digit id.",
+    "regex": "^.*gamma\\d{2}.*$"
+  },
+  {
+    "nl": "Find a string of at least three hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{3,}$"
+  },
+  {
+    "nl": "Extract a string containing the substring 'alpha'.",
+    "regex": "^.*alpha.*$"
+  },
+  {
+    "nl": "Detect a two-decimal amount that follows an at sign, using a positive lookbehind.",
+    "regex": "(?<=@)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Detect a string that starts with the word 'edge'.",
+    "regex": "^edge.*$"
+  },
+  {
+    "nl": "Test whether the input is a string made of three uppercase letters followed by one lowercase letter.",
+    "regex": "^[A-Z]{3}[a-z]{1}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the word 'city' is followed by one or more digits.",
+    "regex": "^.*city\\d+.*$"
+  },
+  {
+    "nl": "Find a string that is exactly the word 'token'.",
+    "regex": "^token$"
+  },
+  {
+    "nl": "Find a string made of four uppercase letters followed by two digits.",
+    "regex": "^[A-Z]{4}[0-9]{2}$"
+  },
+  {
+    "nl": "Find a string where the substring 'invoice' is immediately followed by a six-digit id.",
+    "regex": "^.*invoice\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'alpha' is immediately followed by a three-digit id.",
+    "regex": "^.*alpha\\d{3}.*$"
+  },
+  {
+    "nl": "Match a string made of four lowercase letters followed by one digit.",
+    "regex": "^[a-z]{4}[0-9]{1}$"
+  },
+  {
+    "nl": "Identify a string of at least five uppercase letters.",
+    "regex": "^[A-Z]{5,}$"
+  },
+  {
+    "nl": "Extract a string that ends with the word 'flag'.",
+    "regex": "^.*flag$"
+  },
+  {
+    "nl": "Match a string made of two lowercase letters followed by two digits.",
+    "regex": "^[a-z]{2}[0-9]{2}$"
+  },
+  {
+    "nl": "Detect a string of three letters and two digits separated by a underscore.",
+    "regex": "^[A-Za-z]{3}_[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string where the word 'month' is followed by one or more digits.",
+    "regex": "^.*month\\d+.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of at least two word characters.",
+    "regex": "^\\w{2,}$"
+  },
+  {
+    "nl": "Capture a string of three lowercase letters and two digits separated by a dot.",
+    "regex": "^[a-z]{3}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Find a string containing the substring 'email'.",
+    "regex": "^.*email.*$"
+  },
+  {
+    "nl": "Identify a string containing the substring 'amount'.",
+    "regex": "^.*amount.*$"
+  },
+  {
+    "nl": "Capture a string of between five and ten alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{5,10}$"
+  },
+  {
+    "nl": "Match a string that ends with the word 'time'.",
+    "regex": "^.*time$"
+  },
+  {
+    "nl": "Match a string where the substring 'total' is immediately followed by a three-digit id.",
+    "regex": "^.*total\\d{3}.*$"
+  },
+  {
+    "nl": "Match a string of three letters and three digits separated by a colon.",
+    "regex": "^[A-Za-z]{3}:[0-9]{3}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'alpha' is immediately followed by a five-digit id.",
+    "regex": "^.*alpha\\d{5}.*$"
+  },
+  {
+    "nl": "Extract a string of at least two uppercase letters.",
+    "regex": "^[A-Z]{2,}$"
+  },
+  {
+    "nl": "Validate a string that ends with the word 'user'.",
+    "regex": "^.*user$"
+  },
+  {
+    "nl": "Search for a string containing the standalone whole word 'token'.",
+    "regex": "^.*\\btoken\\b.*$"
+  },
+  {
+    "nl": "Capture a string of at least three uppercase letters.",
+    "regex": "^[A-Z]{3,}$"
+  },
+  {
+    "nl": "Validate a string where the substring 'email' is immediately followed by a four-digit id.",
+    "regex": "^.*email\\d{4}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of two letters and two digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{2}-[0-9]{2}$"
+  },
+  {
+    "nl": "Match a string containing the substring 'city'.",
+    "regex": "^.*city.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the word 'invoice' is followed by one or more digits.",
+    "regex": "^.*invoice\\d+.*$"
+  },
+  {
+    "nl": "Extract a string of exactly seven alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{7}$"
+  },
+  {
+    "nl": "Find a string that starts with the word 'test'.",
+    "regex": "^test.*$"
+  },
+  {
+    "nl": "Validate a string containing the substring 'queue'.",
+    "regex": "^.*queue.*$"
+  },
+  {
+    "nl": "Capture the run of digits that appears right after a hash sign, using a positive lookbehind.",
+    "regex": "(?<=#)\\d+"
+  },
+  {
+    "nl": "Validate a string where the substring 'node' is immediately followed by a four-digit id.",
+    "regex": "^.*node\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string made of two letters followed by one digit.",
+    "regex": "^[A-Za-z]{2}[0-9]{1}$"
+  },
+  {
+    "nl": "Identify a string of exactly eight letters.",
+    "regex": "^[A-Za-z]{8}$"
+  },
+  {
+    "nl": "Match a string where the substring 'ticket' is immediately followed by a four-digit id.",
+    "regex": "^.*ticket\\d{4}.*$"
+  },
+  {
+    "nl": "Find a string that starts with the word 'email'.",
+    "regex": "^email.*$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'amount'.",
+    "regex": "^amount.*$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'price'.",
+    "regex": "^.*price.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'item' is immediately followed by a four-digit id.",
+    "regex": "^.*item\\d{4}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string made of three lowercase letters followed by one digit.",
+    "regex": "^[a-z]{3}[0-9]{1}$"
+  },
+  {
+    "nl": "Capture a string that starts with the word 'address'.",
+    "regex": "^address.*$"
+  },
+  {
+    "nl": "Capture a run of digits that is not immediately preceded by a minus sign, using a negative lookbehind.",
+    "regex": "(?<!-)\\d+"
+  },
+  {
+    "nl": "Extract a string where the substring 'code' is immediately followed by a five-digit id.",
+    "regex": "^.*code\\d{5}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where one or more digits come immediately before the word 'code'.",
+    "regex": "^.*\\d+code.*$"
+  },
+  {
+    "nl": "Find a string made of two uppercase letters followed by four lowercase letters.",
+    "regex": "^[A-Z]{2}[a-z]{4}$"
+  },
+  {
+    "nl": "Validate a string that starts with the word 'gamma'.",
+    "regex": "^gamma.*$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'test'.",
+    "regex": "^.*\\btest\\b.*$"
+  },
+  {
+    "nl": "Find a string that is exactly the word 'error'.",
+    "regex": "^error$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'email' is immediately followed by a two-digit id.",
+    "regex": "^.*email\\d{2}.*$"
+  },
+  {
+    "nl": "Capture a string of word characters that does not start with the word 'Admin', using a negative lookahead.",
+    "regex": "^(?!Admin)\\w+$"
+  },
+  {
+    "nl": "Find a string where one or more digits come immediately before the word 'error'.",
+    "regex": "^.*\\d+error.*$"
+  },
+  {
+    "nl": "Match a string containing the substring 'address'.",
+    "regex": "^.*address.*$"
+  },
+  {
+    "nl": "Extract a string that ends with the word 'test'.",
+    "regex": "^.*test$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'status' is immediately followed by a two-digit id.",
+    "regex": "^.*status\\d{2}.*$"
+  },
+  {
+    "nl": "Match a string that ends with the word 'profile'.",
+    "regex": "^.*profile$"
+  },
+  {
+    "nl": "Detect a string where the substring 'state' is immediately followed by a two-digit id.",
+    "regex": "^.*state\\d{2}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that is exactly the word 'invoice'.",
+    "regex": "^invoice$"
+  },
+  {
+    "nl": "Search for a string of three uppercase letters and four digits separated by a slash.",
+    "regex": "^[A-Z]{3}/[0-9]{4}$"
+  },
+  {
+    "nl": "Find a string where the substring 'stack' is immediately followed by a four-digit id.",
+    "regex": "^.*stack\\d{4}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly seven lowercase letters.",
+    "regex": "^[a-z]{7}$"
+  },
+  {
+    "nl": "Extract a string of two uppercase letters and four digits separated by a colon.",
+    "regex": "^[A-Z]{2}:[0-9]{4}$"
+  },
+  {
+    "nl": "Check if the input is a string where the word 'date' is followed by one or more digits.",
+    "regex": "^.*date\\d+.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'level' is immediately followed by a two-digit id.",
+    "regex": "^.*level\\d{2}.*$"
+  },
+  {
+    "nl": "Validate a string where the word 'account' is followed by one or more digits.",
+    "regex": "^.*account\\d+.*$"
+  },
+  {
+    "nl": "Detect a string of zero or more digits.",
+    "regex": "^[0-9]*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the standalone whole word 'status'.",
+    "regex": "^.*\\bstatus\\b.*$"
+  },
+  {
+    "nl": "Match a string made of two uppercase letters followed by four digits.",
+    "regex": "^[A-Z]{2}[0-9]{4}$"
+  },
+  {
+    "nl": "Match a string of two lowercase letters and two digits separated by a colon.",
+    "regex": "^[a-z]{2}:[0-9]{2}$"
+  },
+  {
+    "nl": "Capture a string of exactly eight lowercase letters.",
+    "regex": "^[a-z]{8}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'beta' is immediately followed by a five-digit id.",
+    "regex": "^.*beta\\d{5}.*$"
+  },
+  {
+    "nl": "Validate a string of between four and eight uppercase letters.",
+    "regex": "^[A-Z]{4,8}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'level' is immediately followed by a five-digit id.",
+    "regex": "^.*level\\d{5}.*$"
+  },
+  {
+    "nl": "Find a string made of four uppercase letters followed by three lowercase letters.",
+    "regex": "^[A-Z]{4}[a-z]{3}$"
+  },
+  {
+    "nl": "Match a string of exactly ten lowercase letters.",
+    "regex": "^[a-z]{10}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'task' is immediately followed by a two-digit id.",
+    "regex": "^.*task\\d{2}.*$"
+  },
+  {
+    "nl": "Detect a string that is exactly the word 'country'.",
+    "regex": "^country$"
+  },
+  {
+    "nl": "Search for a string containing the standalone whole word 'status'.",
+    "regex": "^.*\\bstatus\\b.*$"
+  },
+  {
+    "nl": "Validate a string of at least five word characters.",
+    "regex": "^\\w{5,}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the word 'batch' is followed by one or more digits.",
+    "regex": "^.*batch\\d+.*$"
+  },
+  {
+    "nl": "Search for a string of three uppercase letters and three digits separated by a colon.",
+    "regex": "^[A-Z]{3}:[0-9]{3}$"
+  },
+  {
+    "nl": "Validate a string where the substring 'country' is immediately followed by a four-digit id.",
+    "regex": "^.*country\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the standalone whole word 'data'.",
+    "regex": "^.*\\bdata\\b.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'task' is immediately followed by a six-digit id.",
+    "regex": "^.*task\\d{6}.*$"
+  },
+  {
+    "nl": "Find a string of exactly seven word characters.",
+    "regex": "^\\w{7}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'job' is immediately followed by a five-digit id.",
+    "regex": "^.*job\\d{5}.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'queue' is immediately followed by a six-digit id.",
+    "regex": "^.*queue\\d{6}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly two lowercase letters.",
+    "regex": "^[a-z]{2}$"
+  },
+  {
+    "nl": "Match a string made of one letter followed by two digits.",
+    "regex": "^[A-Za-z]{1}[0-9]{2}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'gamma' is immediately followed by a four-digit id.",
+    "regex": "^.*gamma\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string of between five and ten whitespace characters.",
+    "regex": "^\\s{5,10}$"
+  },
+  {
+    "nl": "Test whether the input is a string of four lowercase letters and four digits separated by a hyphen.",
+    "regex": "^[a-z]{4}-[0-9]{4}$"
+  },
+  {
+    "nl": "Search for a string where the word 'time' is followed by one or more digits.",
+    "regex": "^.*time\\d+.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'code' is immediately followed by a four-digit id.",
+    "regex": "^.*code\\d{4}.*$"
+  },
+  {
+    "nl": "Identify a string where one or more digits come immediately before the word 'session'.",
+    "regex": "^.*\\d+session.*$"
+  },
+  {
+    "nl": "Extract a string that starts with the word 'login'.",
+    "regex": "^login.*$"
+  },
+  {
+    "nl": "Match a string that starts with the word 'month'.",
+    "regex": "^month.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of word characters that does not start with the word 'Item', using a negative lookahead.",
+    "regex": "^(?!Item)\\w+$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'queue'.",
+    "regex": "^queue.*$"
+  },
+  {
+    "nl": "Find a string where the word 'minute' is followed by one or more digits.",
+    "regex": "^.*minute\\d+.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'stack' is immediately followed by a six-digit id.",
+    "regex": "^.*stack\\d{6}.*$"
+  },
+  {
+    "nl": "Extract a string made of two lowercase letters followed by one digit.",
+    "regex": "^[a-z]{2}[0-9]{1}$"
+  },
+  {
+    "nl": "Identify a string containing the substring 'session'.",
+    "regex": "^.*session.*$"
+  },
+  {
+    "nl": "Match a string of two letters and two digits separated by a slash.",
+    "regex": "^[A-Za-z]{2}/[0-9]{2}$"
+  },
+  {
+    "nl": "Test whether the input is a string that is exactly the word 'year'.",
+    "regex": "^year$"
+  },
+  {
+    "nl": "Detect a string where the substring 'user' is immediately followed by a three-digit id.",
+    "regex": "^.*user\\d{3}.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'edge' is immediately followed by a four-digit id.",
+    "regex": "^.*edge\\d{4}.*$"
+  },
+  {
+    "nl": "Extract a string containing the substring 'flag'.",
+    "regex": "^.*flag.*$"
+  },
+  {
+    "nl": "Extract a string where the substring 'stack' is immediately followed by a four-digit id.",
+    "regex": "^.*stack\\d{4}.*$"
+  },
+  {
+    "nl": "Extract a string containing the standalone whole word 'cache'.",
+    "regex": "^.*\\bcache\\b.*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the substring 'address'.",
+    "regex": "^.*address.*$"
+  },
+  {
+    "nl": "Validate a string of two letters and two digits separated by a dot.",
+    "regex": "^[A-Za-z]{2}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'test' is immediately followed by a five-digit id.",
+    "regex": "^.*test\\d{5}.*$"
+  },
+  {
+    "nl": "Find a string made of three uppercase letters followed by one digit.",
+    "regex": "^[A-Z]{3}[0-9]{1}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'data' is immediately followed by a three-digit id.",
+    "regex": "^.*data\\d{3}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'batch' is immediately followed by a four-digit id.",
+    "regex": "^.*batch\\d{4}.*$"
+  },
+  {
+    "nl": "Capture a string containing the same letter repeated two times in a row.",
+    "regex": "^.*([A-Za-z])\\1{1}.*$"
+  },
+  {
+    "nl": "Detect a string of three lowercase letters and four digits separated by a colon.",
+    "regex": "^[a-z]{3}:[0-9]{4}$"
+  },
+  {
+    "nl": "Find a string of one or more vowels.",
+    "regex": "^[aeiou]+$"
+  },
+  {
+    "nl": "Validate a string where one or more digits come immediately before the word 'time'.",
+    "regex": "^.*\\d+time.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'profile' is immediately followed by a six-digit id.",
+    "regex": "^.*profile\\d{6}.*$"
+  },
+  {
+    "nl": "Detect a string where the word 'order' is followed by one or more digits.",
+    "regex": "^.*order\\d+.*$"
+  },
+  {
+    "nl": "Find a string made of one uppercase letter followed by one lowercase letter.",
+    "regex": "^[A-Z]{1}[a-z]{1}$"
+  },
+  {
+    "nl": "Check if the input is a string that starts with the word 'time'.",
+    "regex": "^time.*$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'date'.",
+    "regex": "^.*\\bdate\\b.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'beta' is immediately followed by a five-digit id.",
+    "regex": "^.*beta\\d{5}.*$"
+  },
+  {
+    "nl": "Find a string made of four uppercase letters followed by one digit.",
+    "regex": "^[A-Z]{4}[0-9]{1}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'day' is immediately followed by a three-digit id.",
+    "regex": "^.*day\\d{3}.*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the same letter repeated three times in a row.",
+    "regex": "^.*([A-Za-z])\\1{2}.*$"
+  },
+  {
+    "nl": "Validate a string where one or more digits come immediately before the word 'profile'.",
+    "regex": "^.*\\d+profile.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'user' is immediately followed by a five-digit id.",
+    "regex": "^.*user\\d{5}.*$"
+  },
+  {
+    "nl": "Match a string of exactly six hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{6}$"
+  },
+  {
+    "nl": "Detect a string of at least two hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{2,}$"
+  },
+  {
+    "nl": "Identify a string where the word 'edge' is followed by one or more digits.",
+    "regex": "^.*edge\\d+.*$"
+  },
+  {
+    "nl": "Validate a string of at least two lowercase letters.",
+    "regex": "^[a-z]{2,}$"
+  },
+  {
+    "nl": "Search for a string where the substring 'cache' is immediately followed by a two-digit id.",
+    "regex": "^.*cache\\d{2}.*$"
+  },
+  {
+    "nl": "Capture a string that ends with the word 'ticket'.",
+    "regex": "^.*ticket$"
+  },
+  {
+    "nl": "Search for a string containing the standalone whole word 'year'.",
+    "regex": "^.*\\byear\\b.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'amount' is immediately followed by a six-digit id.",
+    "regex": "^.*amount\\d{6}.*$"
+  },
+  {
+    "nl": "Match a string that ends with the word 'gamma'.",
+    "regex": "^.*gamma$"
+  },
+  {
+    "nl": "Search for a string containing the same character repeated five times in a row.",
+    "regex": "^.*(\\w)\\1{4}.*$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'ticket'.",
+    "regex": "^.*\\d+ticket.*$"
+  },
+  {
+    "nl": "Match a string that is exactly the word 'amount'.",
+    "regex": "^amount$"
+  },
+  {
+    "nl": "Test whether the input is a string of at least one hexadecimal digit.",
+    "regex": "^[0-9A-Fa-f]{1,}$"
+  },
+  {
+    "nl": "Find a string of exactly seven uppercase letters.",
+    "regex": "^[A-Z]{7}$"
+  },
+  {
+    "nl": "Find a string of one or more consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]+$"
+  },
+  {
+    "nl": "Detect a string that ends with the word 'config'.",
+    "regex": "^.*config$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly ten digits.",
+    "regex": "^[0-9]{10}$"
+  },
+  {
+    "nl": "Extract a string of between three and five digits.",
+    "regex": "^[0-9]{3,5}$"
+  },
+  {
+    "nl": "Find a string where the substring 'profile' is immediately followed by a three-digit id.",
+    "regex": "^.*profile\\d{3}.*$"
+  },
+  {
+    "nl": "Identify a string of at least eight alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{8,}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'error' is immediately followed by a five-digit id.",
+    "regex": "^.*error\\d{5}.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'session' is immediately followed by a two-digit id.",
+    "regex": "^.*session\\d{2}.*$"
+  },
+  {
+    "nl": "Validate a string where the word 'phone' is followed by one or more digits.",
+    "regex": "^.*phone\\d+.*$"
+  },
+  {
+    "nl": "Detect the run of digits that appears right after a dollar sign, using a positive lookbehind.",
+    "regex": "(?<=\\$)\\d+"
+  },
+  {
+    "nl": "Search for a string that ends with the word 'beta'.",
+    "regex": "^.*beta$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'task' is immediately followed by a three-digit id.",
+    "regex": "^.*task\\d{3}.*$"
+  },
+  {
+    "nl": "Identify a string that is exactly the word 'task'.",
+    "regex": "^task$"
+  },
+  {
+    "nl": "Test whether the input is a string of zero or more lowercase letters.",
+    "regex": "^[a-z]*$"
+  },
+  {
+    "nl": "Extract a string where the substring 'edge' is immediately followed by a four-digit id.",
+    "regex": "^.*edge\\d{4}.*$"
+  },
+  {
+    "nl": "Match a string of exactly six letters.",
+    "regex": "^[A-Za-z]{6}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'config' is immediately followed by a three-digit id.",
+    "regex": "^.*config\\d{3}.*$"
+  },
+  {
+    "nl": "Capture a string of two lowercase letters and four digits separated by a dot.",
+    "regex": "^[a-z]{2}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'queue'.",
+    "regex": "^.*queue.*$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'hour'.",
+    "regex": "^.*hour.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'price' is immediately followed by a four-digit id.",
+    "regex": "^.*price\\d{4}.*$"
+  },
+  {
+    "nl": "Find a string made of three letters followed by three digits.",
+    "regex": "^[A-Za-z]{3}[0-9]{3}$"
+  },
+  {
+    "nl": "Check if the input is a string made of four letters followed by three digits.",
+    "regex": "^[A-Za-z]{4}[0-9]{3}$"
+  },
+  {
+    "nl": "Identify a string that starts with the word 'flag'.",
+    "regex": "^flag.*$"
+  },
+  {
+    "nl": "Match a string made of three uppercase letters followed by two lowercase letters.",
+    "regex": "^[A-Z]{3}[a-z]{2}$"
+  },
+  {
+    "nl": "Detect a string where the substring 'minute' is immediately followed by a five-digit id.",
+    "regex": "^.*minute\\d{5}.*$"
+  },
+  {
+    "nl": "a number written in scientific notation",
+    "regex": "^[+-]?\\d+(?:\\.\\d+)?[eE][+-]?\\d+$"
+  },
+  {
+    "nl": "Extract a string containing the substring 'login'.",
+    "regex": "^.*login.*$"
+  },
+  {
+    "nl": "Validate a string of at least eight word characters.",
+    "regex": "^\\w{8,}$"
+  },
+  {
+    "nl": "Capture a string of exactly five hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{5}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'queue' is immediately followed by a six-digit id.",
+    "regex": "^.*queue\\d{6}.*$"
+  },
+  {
+    "nl": "Detect a string that is exactly the word 'user'.",
+    "regex": "^user$"
+  },
+  {
+    "nl": "Extract a string where the substring 'country' is immediately followed by a three-digit id.",
+    "regex": "^.*country\\d{3}.*$"
+  },
+  {
+    "nl": "Search for a string of two letters and four digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{2}-[0-9]{4}$"
+  },
+  {
+    "nl": "Validate the run of digits that comes right before the unit 'px' (pixels), using a positive lookahead.",
+    "regex": "\\d+(?=px)"
+  },
+  {
+    "nl": "Check if the input is a string of four letters and two digits separated by a slash.",
+    "regex": "^[A-Za-z]{4}/[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string of four uppercase letters and four digits separated by a colon.",
+    "regex": "^[A-Z]{4}:[0-9]{4}$"
+  },
+  {
+    "nl": "Match a string containing the same digit repeated three times in a row.",
+    "regex": "^.*(\\d)\\1{2}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where one or more digits come immediately before the word 'error'.",
+    "regex": "^.*\\d+error.*$"
+  },
+  {
+    "nl": "Capture a string of one or more lowercase letters.",
+    "regex": "^[a-z]+$"
+  },
+  {
+    "nl": "Extract a string of at least three word characters.",
+    "regex": "^\\w{3,}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'ticket' is immediately followed by a four-digit id.",
+    "regex": "^.*ticket\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'node' is immediately followed by a three-digit id.",
+    "regex": "^.*node\\d{3}.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'alpha' is immediately followed by a six-digit id.",
+    "regex": "^.*alpha\\d{6}.*$"
+  },
+  {
+    "nl": "Detect a string of exactly ten lowercase letters.",
+    "regex": "^[a-z]{10}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'date' is immediately followed by a two-digit id.",
+    "regex": "^.*date\\d{2}.*$"
+  },
+  {
+    "nl": "Capture a string containing the standalone whole word 'price'.",
+    "regex": "^.*\\bprice\\b.*$"
+  },
+  {
+    "nl": "Detect a string made of three letters followed by two digits.",
+    "regex": "^[A-Za-z]{3}[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string of between four and eight digits.",
+    "regex": "^[0-9]{4,8}$"
+  },
+  {
+    "nl": "Find a string of three letters and two digits separated by a colon.",
+    "regex": "^[A-Za-z]{3}:[0-9]{2}$"
+  },
+  {
+    "nl": "Test whether the input is a string that is exactly the word 'task'.",
+    "regex": "^task$"
+  },
+  {
+    "nl": "Match a string containing the standalone whole word 'job'.",
+    "regex": "^.*\\bjob\\b.*$"
+  },
+  {
+    "nl": "Test whether the input is a string made of one letter followed by four digits.",
+    "regex": "^[A-Za-z]{1}[0-9]{4}$"
+  },
+  {
+    "nl": "Identify a string of four uppercase letters and four digits separated by a dot.",
+    "regex": "^[A-Z]{4}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Extract a string containing the substring 'report'.",
+    "regex": "^.*report.*$"
+  },
+  {
+    "nl": "Capture a string of word characters that does not start with the word 'Token', using a negative lookahead.",
+    "regex": "^(?!Token)\\w+$"
+  },
+  {
+    "nl": "Match a string made of one uppercase letter followed by three digits.",
+    "regex": "^[A-Z]{1}[0-9]{3}$"
+  },
+  {
+    "nl": "Detect a string of between three and five whitespace characters.",
+    "regex": "^\\s{3,5}$"
+  },
+  {
+    "nl": "Detect a string of between one and three alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{1,3}$"
+  },
+  {
+    "nl": "Detect a string where the substring 'node' is immediately followed by a six-digit id.",
+    "regex": "^.*node\\d{6}.*$"
+  },
+  {
+    "nl": "Match a string containing the standalone whole word 'error'.",
+    "regex": "^.*\\berror\\b.*$"
+  },
+  {
+    "nl": "Extract a string of exactly seven digits.",
+    "regex": "^[0-9]{7}$"
+  },
+  {
+    "nl": "Extract a string of exactly one word character.",
+    "regex": "^\\w{1}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'gamma' is immediately followed by a three-digit id.",
+    "regex": "^.*gamma\\d{3}.*$"
+  },
+  {
+    "nl": "Identify a string of four lowercase letters and two digits separated by a colon.",
+    "regex": "^[a-z]{4}:[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'order' is immediately followed by a three-digit id.",
+    "regex": "^.*order\\d{3}.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'amount' is immediately followed by a four-digit id.",
+    "regex": "^.*amount\\d{4}.*$"
+  },
+  {
+    "nl": "Capture a string of word characters that does not start with the word 'Ticket', using a negative lookahead.",
+    "regex": "^(?!Ticket)\\w+$"
+  },
+  {
+    "nl": "Test whether the input is a string of between three and five whitespace characters.",
+    "regex": "^\\s{3,5}$"
+  },
+  {
+    "nl": "Extract a string containing the standalone whole word 'user'.",
+    "regex": "^.*\\buser\\b.*$"
+  },
+  {
+    "nl": "Test whether the input is a string that ends with the word 'beta'.",
+    "regex": "^.*beta$"
+  },
+  {
+    "nl": "Check if the input is a string of two lowercase letters and four digits separated by a colon.",
+    "regex": "^[a-z]{2}:[0-9]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string that is exactly the word 'gamma'.",
+    "regex": "^gamma$"
+  },
+  {
+    "nl": "Test whether the input is a two-decimal amount that follows an at sign, using a positive lookbehind.",
+    "regex": "(?<=@)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Match a string that starts with the word 'level'.",
+    "regex": "^level.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'minute' is immediately followed by a two-digit id.",
+    "regex": "^.*minute\\d{2}.*$"
+  },
+  {
+    "nl": "Match a string containing the substring 'email'.",
+    "regex": "^.*email.*$"
+  },
+  {
+    "nl": "Extract a string that ends with the word 'task'.",
+    "regex": "^.*task$"
+  },
+  {
+    "nl": "Match a string of four lowercase letters and three digits separated by a underscore.",
+    "regex": "^[a-z]{4}_[0-9]{3}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'email' is immediately followed by a four-digit id.",
+    "regex": "^.*email\\d{4}.*$"
+  },
+  {
+    "nl": "Validate a string that ends with the word 'admin'.",
+    "regex": "^.*admin$"
+  },
+  {
+    "nl": "Validate a string that ends with the word 'gamma'.",
+    "regex": "^.*gamma$"
+  },
+  {
+    "nl": "Identify a string where the substring 'cache' is immediately followed by a two-digit id.",
+    "regex": "^.*cache\\d{2}.*$"
+  },
+  {
+    "nl": "Search for a string of exactly twelve uppercase letters.",
+    "regex": "^[A-Z]{12}$"
+  },
+  {
+    "nl": "Find a string made of one uppercase letter followed by four lowercase letters.",
+    "regex": "^[A-Z]{1}[a-z]{4}$"
+  },
+  {
+    "nl": "Match a string of exactly twelve digits.",
+    "regex": "^[0-9]{12}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'config' is immediately followed by a six-digit id.",
+    "regex": "^.*config\\d{6}.*$"
+  },
+  {
+    "nl": "Extract a string of three lowercase letters and three digits separated by a slash.",
+    "regex": "^[a-z]{3}/[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string of four letters and two digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{4}-[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string of between two and four letters.",
+    "regex": "^[A-Za-z]{2,4}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'cache' is immediately followed by a two-digit id.",
+    "regex": "^.*cache\\d{2}.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'data' is immediately followed by a six-digit id.",
+    "regex": "^.*data\\d{6}.*$"
+  },
+  {
+    "nl": "Match a string of between one and three whitespace characters.",
+    "regex": "^\\s{1,3}$"
+  },
+  {
+    "nl": "Identify the run of digits that comes right before the unit 'mb' (megabytes), using a positive lookahead.",
+    "regex": "\\d+(?=mb)"
+  },
+  {
+    "nl": "Match a string where the substring 'status' is immediately followed by a six-digit id.",
+    "regex": "^.*status\\d{6}.*$"
+  },
+  {
+    "nl": "Match a string of exactly four digits.",
+    "regex": "^[0-9]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'order' is immediately followed by a four-digit id.",
+    "regex": "^.*order\\d{4}.*$"
+  },
+  {
+    "nl": "Find a string containing the standalone whole word 'config'.",
+    "regex": "^.*\\bconfig\\b.*$"
+  },
+  {
+    "nl": "Identify a string where the word 'node' is followed by one or more digits.",
+    "regex": "^.*node\\d+.*$"
+  },
+  {
+    "nl": "Detect a string of one or more word characters.",
+    "regex": "^\\w+$"
+  },
+  {
+    "nl": "Test whether the input is a string of between two and four word characters.",
+    "regex": "^\\w{2,4}$"
+  },
+  {
+    "nl": "Search for a string of three uppercase letters and two digits separated by a slash.",
+    "regex": "^[A-Z]{3}/[0-9]{2}$"
+  },
+  {
+    "nl": "Search for a string of four uppercase letters and four digits separated by a dot.",
+    "regex": "^[A-Z]{4}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'queue' is immediately followed by a five-digit id.",
+    "regex": "^.*queue\\d{5}.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'hour' is immediately followed by a two-digit id.",
+    "regex": "^.*hour\\d{2}.*$"
+  },
+  {
+    "nl": "Search for a string of at least five hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{5,}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'report' is immediately followed by a four-digit id.",
+    "regex": "^.*report\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that is exactly the word 'order'.",
+    "regex": "^order$"
+  },
+  {
+    "nl": "Find a string where one or more digits come immediately before the word 'report'.",
+    "regex": "^.*\\d+report.*$"
+  },
+  {
+    "nl": "Check if the input is a string made of three lowercase letters followed by two digits.",
+    "regex": "^[a-z]{3}[0-9]{2}$"
+  },
+  {
+    "nl": "Validate a string made of one uppercase letter followed by one lowercase letter.",
+    "regex": "^[A-Z]{1}[a-z]{1}$"
+  },
+  {
+    "nl": "Extract a string of three letters and four digits separated by a slash.",
+    "regex": "^[A-Za-z]{3}/[0-9]{4}$"
+  },
+  {
+    "nl": "Search for a string made of three lowercase letters followed by two digits.",
+    "regex": "^[a-z]{3}[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string where the substring 'hour' is immediately followed by a six-digit id.",
+    "regex": "^.*hour\\d{6}.*$"
+  },
+  {
+    "nl": "Detect a string of at least eight lowercase letters.",
+    "regex": "^[a-z]{8,}$"
+  },
+  {
+    "nl": "Find a string of exactly ten word characters.",
+    "regex": "^\\w{10}$"
+  },
+  {
+    "nl": "Match a string where the substring 'graph' is immediately followed by a three-digit id.",
+    "regex": "^.*graph\\d{3}.*$"
+  },
+  {
+    "nl": "Check if the input is a string of four lowercase letters and four digits separated by a hyphen.",
+    "regex": "^[a-z]{4}-[0-9]{4}$"
+  },
+  {
+    "nl": "Extract a string of two uppercase letters and two digits separated by a underscore.",
+    "regex": "^[A-Z]{2}_[0-9]{2}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'test' is immediately followed by a two-digit id.",
+    "regex": "^.*test\\d{2}.*$"
+  },
+  {
+    "nl": "Extract a string where one or more digits come immediately before the word 'graph'.",
+    "regex": "^.*\\d+graph.*$"
+  },
+  {
+    "nl": "Identify a string containing the standalone whole word 'test'.",
+    "regex": "^.*\\btest\\b.*$"
+  },
+  {
+    "nl": "Check if the input is a string that ends with the word 'account'.",
+    "regex": "^.*account$"
+  },
+  {
+    "nl": "Validate a string of two letters and two digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{2}-[0-9]{2}$"
+  },
+  {
+    "nl": "Search for a string where the substring 'level' is immediately followed by a five-digit id.",
+    "regex": "^.*level\\d{5}.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'login' is immediately followed by a six-digit id.",
+    "regex": "^.*login\\d{6}.*$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'edge'.",
+    "regex": "^.*\\d+edge.*$"
+  },
+  {
+    "nl": "Validate a string of between one and three alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{1,3}$"
+  },
+  {
+    "nl": "Validate a string where the substring 'gamma' is immediately followed by a four-digit id.",
+    "regex": "^.*gamma\\d{4}.*$"
+  },
+  {
+    "nl": "Find a string of four letters and three digits separated by a slash.",
+    "regex": "^[A-Za-z]{4}/[0-9]{3}$"
+  },
+  {
+    "nl": "Identify a string containing the standalone whole word 'time'.",
+    "regex": "^.*\\btime\\b.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'invoice' is immediately followed by a three-digit id.",
+    "regex": "^.*invoice\\d{3}.*$"
+  },
+  {
+    "nl": "Capture a string of exactly two consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]{2}$"
+  },
+  {
+    "nl": "Find a string of one or more word characters.",
+    "regex": "^\\w+$"
+  },
+  {
+    "nl": "Extract a string of three letters and three digits separated by a colon.",
+    "regex": "^[A-Za-z]{3}:[0-9]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string made of four lowercase letters followed by two digits.",
+    "regex": "^[a-z]{4}[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'total' is immediately followed by a four-digit id.",
+    "regex": "^.*total\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string of two uppercase letters and three digits separated by a colon.",
+    "regex": "^[A-Z]{2}:[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string of exactly one punctuation mark.",
+    "regex": "^[.,;:!?]$"
+  },
+  {
+    "nl": "Extract a string containing the standalone whole word 'time'.",
+    "regex": "^.*\\btime\\b.*$"
+  },
+  {
+    "nl": "Detect a string of word characters that does not start with the word 'Data', using a negative lookahead.",
+    "regex": "^(?!Data)\\w+$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'user' is immediately followed by a six-digit id.",
+    "regex": "^.*user\\d{6}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of four uppercase letters and two digits separated by a colon.",
+    "regex": "^[A-Z]{4}:[0-9]{2}$"
+  },
+  {
+    "nl": "Match a string where the substring 'code' is immediately followed by a six-digit id.",
+    "regex": "^.*code\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'hour' is immediately followed by a four-digit id.",
+    "regex": "^.*hour\\d{4}.*$"
+  },
+  {
+    "nl": "Capture a string of three lowercase letters and three digits separated by a dot.",
+    "regex": "^[a-z]{3}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'temp' is immediately followed by a two-digit id.",
+    "regex": "^.*temp\\d{2}.*$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'user'.",
+    "regex": "^.*\\d+user.*$"
+  },
+  {
+    "nl": "Validate a string that ends with the word 'edge'.",
+    "regex": "^.*edge$"
+  },
+  {
+    "nl": "Search for a string where the substring 'report' is immediately followed by a six-digit id.",
+    "regex": "^.*report\\d{6}.*$"
+  },
+  {
+    "nl": "Validate a string that starts with the word 'token'.",
+    "regex": "^token.*$"
+  },
+  {
+    "nl": "Extract a string of one or more consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]+$"
+  },
+  {
+    "nl": "Detect a string where the substring 'price' is immediately followed by a six-digit id.",
+    "regex": "^.*price\\d{6}.*$"
+  },
+  {
+    "nl": "Detect a string made of one lowercase letter followed by one digit.",
+    "regex": "^[a-z]{1}[0-9]{1}$"
+  },
+  {
+    "nl": "Find a string where the word 'cache' is followed by one or more digits.",
+    "regex": "^.*cache\\d+.*$"
+  },
+  {
+    "nl": "Find a string of word characters that does not start with the word 'Config', using a negative lookahead.",
+    "regex": "^(?!Config)\\w+$"
+  },
+  {
+    "nl": "Capture a string of two letters and four digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{2}-[0-9]{4}$"
+  },
+  {
+    "nl": "Search for a string made of two uppercase letters followed by three lowercase letters.",
+    "regex": "^[A-Z]{2}[a-z]{3}$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'data'.",
+    "regex": "^.*\\bdata\\b.*$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the standalone whole word 'status'.",
+    "regex": "^.*\\bstatus\\b.*$"
+  },
+  {
+    "nl": "Match a string of four lowercase letters and three digits separated by a slash.",
+    "regex": "^[a-z]{4}/[0-9]{3}$"
+  },
+  {
+    "nl": "Extract a string of word characters that does not start with the word 'Profile', using a negative lookahead.",
+    "regex": "^(?!Profile)\\w+$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly eight uppercase letters.",
+    "regex": "^[A-Z]{8}$"
+  },
+  {
+    "nl": "Capture a string that ends with the word 'address'.",
+    "regex": "^.*address$"
+  },
+  {
+    "nl": "Capture a string where the substring 'code' is immediately followed by a five-digit id.",
+    "regex": "^.*code\\d{5}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string that is exactly the word 'minute'.",
+    "regex": "^minute$"
+  },
+  {
+    "nl": "Match a string where the substring 'invoice' is immediately followed by a six-digit id.",
+    "regex": "^.*invoice\\d{6}.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'hour' is immediately followed by a three-digit id.",
+    "regex": "^.*hour\\d{3}.*$"
+  },
+  {
+    "nl": "Check if the input is the run of digits that appears right after an equals sign, using a positive lookbehind.",
+    "regex": "(?<==)\\d+"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'day'.",
+    "regex": "^.*\\d+day.*$"
+  },
+  {
+    "nl": "Find a string of three uppercase letters and four digits separated by a colon.",
+    "regex": "^[A-Z]{3}:[0-9]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string of at least eight whitespace characters.",
+    "regex": "^\\s{8,}$"
+  },
+  {
+    "nl": "Detect a string containing the standalone whole word 'account'.",
+    "regex": "^.*\\baccount\\b.*$"
+  },
+  {
+    "nl": "Extract a string that ends with the word 'city'.",
+    "regex": "^.*city$"
+  },
+  {
+    "nl": "Match a string where the substring 'token' is immediately followed by a four-digit id.",
+    "regex": "^.*token\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string of two lowercase letters and three digits separated by a colon.",
+    "regex": "^[a-z]{2}:[0-9]{3}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'alpha' is immediately followed by a five-digit id.",
+    "regex": "^.*alpha\\d{5}.*$"
+  },
+  {
+    "nl": "Identify a string that is exactly the word 'token'.",
+    "regex": "^token$"
+  },
+  {
+    "nl": "Match a string of exactly ten whitespace characters.",
+    "regex": "^\\s{10}$"
+  },
+  {
+    "nl": "Validate a string where the substring 'time' is immediately followed by a four-digit id.",
+    "regex": "^.*time\\d{4}.*$"
+  },
+  {
+    "nl": "Detect a string of exactly seven letters.",
+    "regex": "^[A-Za-z]{7}$"
+  },
+  {
+    "nl": "Validate a string where one or more digits come immediately before the word 'edge'.",
+    "regex": "^.*\\d+edge.*$"
+  },
+  {
+    "nl": "Match a string of exactly twelve hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{12}$"
+  },
+  {
+    "nl": "Validate a string of exactly eight letters.",
+    "regex": "^[A-Za-z]{8}$"
+  },
+  {
+    "nl": "Check if the input is a string of three letters and two digits separated by a underscore.",
+    "regex": "^[A-Za-z]{3}_[0-9]{2}$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'temp'.",
+    "regex": "^temp.*$"
+  },
+  {
+    "nl": "Check if the input is a string of four uppercase letters and two digits separated by a underscore.",
+    "regex": "^[A-Z]{4}_[0-9]{2}$"
+  },
+  {
+    "nl": "Validate the run of digits that appears right after an at sign, using a positive lookbehind.",
+    "regex": "(?<=@)\\d+"
+  },
+  {
+    "nl": "Find a string where the word 'order' is followed by one or more digits.",
+    "regex": "^.*order\\d+.*$"
+  },
+  {
+    "nl": "Identify a string containing the standalone whole word 'login'.",
+    "regex": "^.*\\blogin\\b.*$"
+  },
+  {
+    "nl": "Validate a string where the substring 'beta' is immediately followed by a four-digit id.",
+    "regex": "^.*beta\\d{4}.*$"
+  },
+  {
+    "nl": "Capture a string of at least three digits.",
+    "regex": "^[0-9]{3,}$"
+  },
+  {
+    "nl": "Capture a string of between four and eight whitespace characters.",
+    "regex": "^\\s{4,8}$"
+  },
+  {
+    "nl": "Search for a string of two uppercase letters and four digits separated by a underscore.",
+    "regex": "^[A-Z]{2}_[0-9]{4}$"
+  },
+  {
+    "nl": "Capture a string of three lowercase letters and three digits separated by a colon.",
+    "regex": "^[a-z]{3}:[0-9]{3}$"
+  },
+  {
+    "nl": "Find a string containing the substring 'status'.",
+    "regex": "^.*status.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'stack' is immediately followed by a two-digit id.",
+    "regex": "^.*stack\\d{2}.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'city' is immediately followed by a five-digit id.",
+    "regex": "^.*city\\d{5}.*$"
+  },
+  {
+    "nl": "Extract a string made of two letters followed by two digits.",
+    "regex": "^[A-Za-z]{2}[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string containing the standalone whole word 'country'.",
+    "regex": "^.*\\bcountry\\b.*$"
+  },
+  {
+    "nl": "Test whether the input is a string that is exactly the word 'level'.",
+    "regex": "^level$"
+  },
+  {
+    "nl": "Match a string that starts with the word 'user'.",
+    "regex": "^user.*$"
+  },
+  {
+    "nl": "Validate a string where one or more digits come immediately before the word 'ticket'.",
+    "regex": "^.*\\d+ticket.*$"
+  },
+  {
+    "nl": "Find a string made of two uppercase letters followed by two digits.",
+    "regex": "^[A-Z]{2}[0-9]{2}$"
+  },
+  {
+    "nl": "Search for a string where the substring 'beta' is immediately followed by a three-digit id.",
+    "regex": "^.*beta\\d{3}.*$"
+  },
+  {
+    "nl": "Search for a string that starts with the word 'level'.",
+    "regex": "^level.*$"
+  },
+  {
+    "nl": "Identify a string that starts with the word 'level'.",
+    "regex": "^level.*$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'minute'.",
+    "regex": "^.*\\d+minute.*$"
+  },
+  {
+    "nl": "Detect a string where the word 'price' is followed by one or more digits.",
+    "regex": "^.*price\\d+.*$"
+  },
+  {
+    "nl": "Find a string that ends with the word 'day'.",
+    "regex": "^.*day$"
+  },
+  {
+    "nl": "Detect a string of four uppercase letters and two digits separated by a colon.",
+    "regex": "^[A-Z]{4}:[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string of four uppercase letters and four digits separated by a colon.",
+    "regex": "^[A-Z]{4}:[0-9]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the standalone whole word 'hour'.",
+    "regex": "^.*\\bhour\\b.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'edge' is immediately followed by a four-digit id.",
+    "regex": "^.*edge\\d{4}.*$"
+  },
+  {
+    "nl": "Find a string of word characters that does not start with the word 'Session', using a negative lookahead.",
+    "regex": "^(?!Session)\\w+$"
+  },
+  {
+    "nl": "Match a string of two uppercase letters and three digits separated by a underscore.",
+    "regex": "^[A-Z]{2}_[0-9]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly three hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{3}$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'graph'.",
+    "regex": "^.*\\d+graph.*$"
+  },
+  {
+    "nl": "Detect a string where one or more digits come immediately before the word 'order'.",
+    "regex": "^.*\\d+order.*$"
+  },
+  {
+    "nl": "Capture a string of exactly three word characters.",
+    "regex": "^\\w{3}$"
+  },
+  {
+    "nl": "Match a string of at least eight letters.",
+    "regex": "^[A-Za-z]{8,}$"
+  },
+  {
+    "nl": "Extract a string of exactly ten whitespace characters.",
+    "regex": "^\\s{10}$"
+  },
+  {
+    "nl": "Validate a string made of two uppercase letters followed by one lowercase letter.",
+    "regex": "^[A-Z]{2}[a-z]{1}$"
+  },
+  {
+    "nl": "Search for a string containing the substring 'year'.",
+    "regex": "^.*year.*$"
+  },
+  {
+    "nl": "Capture a string made of three lowercase letters followed by three digits.",
+    "regex": "^[a-z]{3}[0-9]{3}$"
+  },
+  {
+    "nl": "Extract a string of two letters and three digits separated by a dot.",
+    "regex": "^[A-Za-z]{2}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Find a string that starts with the word 'config'.",
+    "regex": "^config.*$"
+  },
+  {
+    "nl": "Identify a string of three letters and four digits separated by a dot.",
+    "regex": "^[A-Za-z]{3}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'country' is immediately followed by a two-digit id.",
+    "regex": "^.*country\\d{2}.*$"
+  },
+  {
+    "nl": "Match a string that ends with the word 'minute'.",
+    "regex": "^.*minute$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'state' is immediately followed by a five-digit id.",
+    "regex": "^.*state\\d{5}.*$"
+  },
+  {
+    "nl": "Capture a string of word characters that does not start with the word 'Status', using a negative lookahead.",
+    "regex": "^(?!Status)\\w+$"
+  },
+  {
+    "nl": "Find a string of exactly seven digits.",
+    "regex": "^[0-9]{7}$"
+  },
+  {
+    "nl": "Match a string where the substring 'data' is immediately followed by a six-digit id.",
+    "regex": "^.*data\\d{6}.*$"
+  },
+  {
+    "nl": "Identify a string of two uppercase letters and three digits separated by a underscore.",
+    "regex": "^[A-Z]{2}_[0-9]{3}$"
+  },
+  {
+    "nl": "Match a string of three uppercase letters and two digits separated by a dot.",
+    "regex": "^[A-Z]{3}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'batch'.",
+    "regex": "^.*batch.*$"
+  },
+  {
+    "nl": "Test whether the input is a string made of four letters followed by one digit.",
+    "regex": "^[A-Za-z]{4}[0-9]{1}$"
+  },
+  {
+    "nl": "Validate a string of four uppercase letters and two digits separated by a slash.",
+    "regex": "^[A-Z]{4}/[0-9]{2}$"
+  },
+  {
+    "nl": "Validate a string of two uppercase letters and three digits separated by a slash.",
+    "regex": "^[A-Z]{2}/[0-9]{3}$"
+  },
+  {
+    "nl": "Validate a string of three letters and two digits separated by a colon.",
+    "regex": "^[A-Za-z]{3}:[0-9]{2}$"
+  },
+  {
+    "nl": "Find a string where the word 'edge' is followed by one or more digits.",
+    "regex": "^.*edge\\d+.*$"
+  },
+  {
+    "nl": "Identify a string of four letters and four digits separated by a underscore.",
+    "regex": "^[A-Za-z]{4}_[0-9]{4}$"
+  },
+  {
+    "nl": "Identify a string where one or more digits come immediately before the word 'status'.",
+    "regex": "^.*\\d+status.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'price' is immediately followed by a two-digit id.",
+    "regex": "^.*price\\d{2}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string made of one letter followed by three digits.",
+    "regex": "^[A-Za-z]{1}[0-9]{3}$"
+  },
+  {
+    "nl": "Match a string that is exactly the word 'error'.",
+    "regex": "^error$"
+  },
+  {
+    "nl": "Find a string where the substring 'gamma' is immediately followed by a three-digit id.",
+    "regex": "^.*gamma\\d{3}.*$"
+  },
+  {
+    "nl": "Check if the input is a string made of two uppercase letters followed by four lowercase letters.",
+    "regex": "^[A-Z]{2}[a-z]{4}$"
+  },
+  {
+    "nl": "Capture a string of exactly one lowercase letter.",
+    "regex": "^[a-z]{1}$"
+  },
+  {
+    "nl": "Detect a string made of four uppercase letters followed by three lowercase letters.",
+    "regex": "^[A-Z]{4}[a-z]{3}$"
+  },
+  {
+    "nl": "Check if the input is a string where the word 'item' is followed by one or more digits.",
+    "regex": "^.*item\\d+.*$"
+  },
+  {
+    "nl": "Match a string that is exactly the word 'flag'.",
+    "regex": "^flag$"
+  },
+  {
+    "nl": "Detect a string of exactly ten hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{10}$"
+  },
+  {
+    "nl": "Check if the input is a string of zero or more uppercase letters.",
+    "regex": "^[A-Z]*$"
+  },
+  {
+    "nl": "Validate a string of two letters and two digits separated by a underscore.",
+    "regex": "^[A-Za-z]{2}_[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string where the word 'config' is followed by one or more digits.",
+    "regex": "^.*config\\d+.*$"
+  },
+  {
+    "nl": "Search for a two-decimal amount that follows an equals sign, using a positive lookbehind.",
+    "regex": "(?<==)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'state' is immediately followed by a six-digit id.",
+    "regex": "^.*state\\d{6}.*$"
+  },
+  {
+    "nl": "Search for a string that starts with the word 'day'.",
+    "regex": "^day.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'phone' is immediately followed by a five-digit id.",
+    "regex": "^.*phone\\d{5}.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'session' is immediately followed by a five-digit id.",
+    "regex": "^.*session\\d{5}.*$"
+  },
+  {
+    "nl": "Detect a string containing the substring 'temp'.",
+    "regex": "^.*temp.*$"
+  },
+  {
+    "nl": "Check if the input is a string that ends with the word 'flag'.",
+    "regex": "^.*flag$"
+  },
+  {
+    "nl": "Search for a string of three lowercase letters and three digits separated by a slash.",
+    "regex": "^[a-z]{3}/[0-9]{3}$"
+  },
+  {
+    "nl": "Detect a string that starts with the word 'status'.",
+    "regex": "^status.*$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'alpha'.",
+    "regex": "^.*\\d+alpha.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'level' is immediately followed by a six-digit id.",
+    "regex": "^.*level\\d{6}.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'state' is immediately followed by a five-digit id.",
+    "regex": "^.*state\\d{5}.*$"
+  },
+  {
+    "nl": "Identify a two-decimal amount that follows a dollar sign, using a positive lookbehind.",
+    "regex": "(?<=\\$)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Capture a string where the substring 'order' is immediately followed by a five-digit id.",
+    "regex": "^.*order\\d{5}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that starts with the word 'alpha'.",
+    "regex": "^alpha.*$"
+  },
+  {
+    "nl": "Identify a string of exactly one consonant.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]$"
+  },
+  {
+    "nl": "Match a string that is exactly the word 'item'.",
+    "regex": "^item$"
+  },
+  {
+    "nl": "Capture a string of two letters and two digits separated by a underscore.",
+    "regex": "^[A-Za-z]{2}_[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string of between two and six lowercase letters.",
+    "regex": "^[a-z]{2,6}$"
+  },
+  {
+    "nl": "Capture a string made of one letter followed by two digits.",
+    "regex": "^[A-Za-z]{1}[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string of at least eight hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{8,}$"
+  },
+  {
+    "nl": "Extract a string containing the standalone whole word 'stack'.",
+    "regex": "^.*\\bstack\\b.*$"
+  },
+  {
+    "nl": "Find a string of at least five digits.",
+    "regex": "^[0-9]{5,}$"
+  },
+  {
+    "nl": "Match a string that ends with the word 'state'.",
+    "regex": "^.*state$"
+  },
+  {
+    "nl": "Check if the input is a string that ends with the word 'month'.",
+    "regex": "^.*month$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'day'.",
+    "regex": "^.*\\d+day.*$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'status'.",
+    "regex": "^.*status.*$"
+  },
+  {
+    "nl": "Search for a string containing the standalone whole word 'flag'.",
+    "regex": "^.*\\bflag\\b.*$"
+  },
+  {
+    "nl": "Validate a string of four uppercase letters and three digits separated by a dot.",
+    "regex": "^[A-Z]{4}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Identify a string where the word 'hour' is followed by one or more digits.",
+    "regex": "^.*hour\\d+.*$"
+  },
+  {
+    "nl": "Validate a string where the substring 'date' is immediately followed by a six-digit id.",
+    "regex": "^.*date\\d{6}.*$"
+  },
+  {
+    "nl": "Extract a string containing the standalone whole word 'graph'.",
+    "regex": "^.*\\bgraph\\b.*$"
+  },
+  {
+    "nl": "Capture a string of between two and four word characters.",
+    "regex": "^\\w{2,4}$"
+  },
+  {
+    "nl": "Detect a string that ends with the word 'address'.",
+    "regex": "^.*address$"
+  },
+  {
+    "nl": "Search for a string of exactly two alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{2}$"
+  },
+  {
+    "nl": "Search for a string of exactly three hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{3}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'gamma' is immediately followed by a four-digit id.",
+    "regex": "^.*gamma\\d{4}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'session'.",
+    "regex": "^.*session.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'phone' is immediately followed by a three-digit id.",
+    "regex": "^.*phone\\d{3}.*$"
+  },
+  {
+    "nl": "Search for a string where the substring 'total' is immediately followed by a four-digit id.",
+    "regex": "^.*total\\d{4}.*$"
+  },
+  {
+    "nl": "Validate a string of word characters that does not start with the word 'Config', using a negative lookahead.",
+    "regex": "^(?!Config)\\w+$"
+  },
+  {
+    "nl": "Capture a string where the word 'order' is followed by one or more digits.",
+    "regex": "^.*order\\d+.*$"
+  },
+  {
+    "nl": "Identify a string of one or more alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]+$"
+  },
+  {
+    "nl": "Match a string of exactly four special characters.",
+    "regex": "^[!@#$%^&*]{4}$"
+  },
+  {
+    "nl": "Check if the input is a string where the word 'account' is followed by one or more digits.",
+    "regex": "^.*account\\d+.*$"
+  },
+  {
+    "nl": "Detect a string made of one uppercase letter followed by four digits.",
+    "regex": "^[A-Z]{1}[0-9]{4}$"
+  },
+  {
+    "nl": "Match a string that is exactly the word 'beta'.",
+    "regex": "^beta$"
+  },
+  {
+    "nl": "Extract a string where the substring 'date' is immediately followed by a five-digit id.",
+    "regex": "^.*date\\d{5}.*$"
+  },
+  {
+    "nl": "Find a string where the word 'error' is followed by one or more digits.",
+    "regex": "^.*error\\d+.*$"
+  },
+  {
+    "nl": "Check if the input is a string made of three letters followed by three digits.",
+    "regex": "^[A-Za-z]{3}[0-9]{3}$"
+  },
+  {
+    "nl": "Find a string made of two lowercase letters followed by three digits.",
+    "regex": "^[a-z]{2}[0-9]{3}$"
+  },
+  {
+    "nl": "Find a string containing the substring 'node'.",
+    "regex": "^.*node.*$"
+  },
+  {
+    "nl": "Extract a string of exactly one alphanumeric character.",
+    "regex": "^[A-Za-z0-9]{1}$"
+  },
+  {
+    "nl": "Match a string of four letters and three digits separated by a dot.",
+    "regex": "^[A-Za-z]{4}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the standalone whole word 'cache'.",
+    "regex": "^.*\\bcache\\b.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'date' is immediately followed by a three-digit id.",
+    "regex": "^.*date\\d{3}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string made of four lowercase letters followed by one digit.",
+    "regex": "^[a-z]{4}[0-9]{1}$"
+  },
+  {
+    "nl": "Find a string where the substring 'city' is immediately followed by a two-digit id.",
+    "regex": "^.*city\\d{2}.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'state' is immediately followed by a four-digit id.",
+    "regex": "^.*state\\d{4}.*$"
+  },
+  {
+    "nl": "Extract a string that is exactly the word 'item'.",
+    "regex": "^item$"
+  },
+  {
+    "nl": "Match a string that ends with the word 'city'.",
+    "regex": "^.*city$"
+  },
+  {
+    "nl": "Test whether the input is a string of two uppercase letters and four digits separated by a slash.",
+    "regex": "^[A-Z]{2}/[0-9]{4}$"
+  },
+  {
+    "nl": "Validate a string made of four uppercase letters followed by one lowercase letter.",
+    "regex": "^[A-Z]{4}[a-z]{1}$"
+  },
+  {
+    "nl": "Find a string of three uppercase letters and four digits separated by a slash.",
+    "regex": "^[A-Z]{3}/[0-9]{4}$"
+  },
+  {
+    "nl": "Find a string that ends with the word 'hour'.",
+    "regex": "^.*hour$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly three letters.",
+    "regex": "^[A-Za-z]{3}$"
+  },
+  {
+    "nl": "Search for a string that ends with the word 'job'.",
+    "regex": "^.*job$"
+  },
+  {
+    "nl": "Test whether the input is a string of three letters and four digits separated by a slash.",
+    "regex": "^[A-Za-z]{3}/[0-9]{4}$"
+  },
+  {
+    "nl": "Match a string that is exactly the word 'level'.",
+    "regex": "^level$"
+  },
+  {
+    "nl": "Check if the input is a string of at least eight letters.",
+    "regex": "^[A-Za-z]{8,}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'year' is immediately followed by a four-digit id.",
+    "regex": "^.*year\\d{4}.*$"
+  },
+  {
+    "nl": "Search for a string of exactly two digits.",
+    "regex": "^[0-9]{2}$"
+  },
+  {
+    "nl": "Validate a string of exactly four consonants.",
+    "regex": "^[bcdfghjklmnpqrstvwxyz]{4}$"
+  },
+  {
+    "nl": "Identify a string containing the standalone whole word 'amount'.",
+    "regex": "^.*\\bamount\\b.*$"
+  },
+  {
+    "nl": "Capture a string where the substring 'session' is immediately followed by a three-digit id.",
+    "regex": "^.*session\\d{3}.*$"
+  },
+  {
+    "nl": "Extract a string of three lowercase letters and two digits separated by a dot.",
+    "regex": "^[a-z]{3}\\.[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string of four lowercase letters and three digits separated by a hyphen.",
+    "regex": "^[a-z]{4}-[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string of between two and six whitespace characters.",
+    "regex": "^\\s{2,6}$"
+  },
+  {
+    "nl": "Find a string of four uppercase letters and two digits separated by a colon.",
+    "regex": "^[A-Z]{4}:[0-9]{2}$"
+  },
+  {
+    "nl": "Validate a string of word characters that does not start with the word 'Data', using a negative lookahead.",
+    "regex": "^(?!Data)\\w+$"
+  },
+  {
+    "nl": "Find a string of at least five lowercase letters.",
+    "regex": "^[a-z]{5,}$"
+  },
+  {
+    "nl": "Extract a string of four uppercase letters and two digits separated by a hyphen.",
+    "regex": "^[A-Z]{4}-[0-9]{2}$"
+  },
+  {
+    "nl": "Extract a string of exactly two uppercase letters.",
+    "regex": "^[A-Z]{2}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'session' is immediately followed by a three-digit id.",
+    "regex": "^.*session\\d{3}.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'month' is immediately followed by a six-digit id.",
+    "regex": "^.*month\\d{6}.*$"
+  },
+  {
+    "nl": "Find a string that starts with the word 'login'.",
+    "regex": "^login.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'queue' is immediately followed by a two-digit id.",
+    "regex": "^.*queue\\d{2}.*$"
+  },
+  {
+    "nl": "Validate a string of four lowercase letters and two digits separated by a colon.",
+    "regex": "^[a-z]{4}:[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string where one or more digits come immediately before the word 'status'.",
+    "regex": "^.*\\d+status.*$"
+  },
+  {
+    "nl": "Identify a string of three lowercase letters and three digits separated by a slash.",
+    "regex": "^[a-z]{3}/[0-9]{3}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'amount' is immediately followed by a four-digit id.",
+    "regex": "^.*amount\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string where one or more digits come immediately before the word 'cache'.",
+    "regex": "^.*\\d+cache.*$"
+  },
+  {
+    "nl": "Detect a string of between three and five word characters.",
+    "regex": "^\\w{3,5}$"
+  },
+  {
+    "nl": "Extract a string where one or more digits come immediately before the word 'data'.",
+    "regex": "^.*\\d+data.*$"
+  },
+  {
+    "nl": "Capture a string where the word 'date' is followed by one or more digits.",
+    "regex": "^.*date\\d+.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'job' is immediately followed by a five-digit id.",
+    "regex": "^.*job\\d{5}.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'state' is immediately followed by a three-digit id.",
+    "regex": "^.*state\\d{3}.*$"
+  },
+  {
+    "nl": "Find a string that is exactly the word 'total'.",
+    "regex": "^total$"
+  },
+  {
+    "nl": "Validate a string where the substring 'report' is immediately followed by a two-digit id.",
+    "regex": "^.*report\\d{2}.*$"
+  },
+  {
+    "nl": "Identify a string of exactly three punctuation marks.",
+    "regex": "^[.,;:!?]{3}$"
+  },
+  {
+    "nl": "Detect a string of between two and six whitespace characters.",
+    "regex": "^\\s{2,6}$"
+  },
+  {
+    "nl": "Extract a string where the substring 'admin' is immediately followed by a four-digit id.",
+    "regex": "^.*admin\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'gamma' is immediately followed by a five-digit id.",
+    "regex": "^.*gamma\\d{5}.*$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'code'.",
+    "regex": "^.*\\d+code.*$"
+  },
+  {
+    "nl": "Extract a string where the substring 'minute' is immediately followed by a two-digit id.",
+    "regex": "^.*minute\\d{2}.*$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly eight whitespace characters.",
+    "regex": "^\\s{8}$"
+  },
+  {
+    "nl": "Find a string that starts with the word 'node'.",
+    "regex": "^node.*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the substring 'month'.",
+    "regex": "^.*month.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'report' is immediately followed by a four-digit id.",
+    "regex": "^.*report\\d{4}.*$"
+  },
+  {
+    "nl": "Capture a string containing the same digit repeated four times in a row.",
+    "regex": "^.*(\\d)\\1{3}.*$"
+  },
+  {
+    "nl": "Search for a string that is exactly the word 'report'.",
+    "regex": "^report$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'profile' is immediately followed by a two-digit id.",
+    "regex": "^.*profile\\d{2}.*$"
+  },
+  {
+    "nl": "Test whether the input is a string made of one uppercase letter followed by one digit.",
+    "regex": "^[A-Z]{1}[0-9]{1}$"
+  },
+  {
+    "nl": "Match a string where the substring 'task' is immediately followed by a six-digit id.",
+    "regex": "^.*task\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string of four lowercase letters and two digits separated by a slash.",
+    "regex": "^[a-z]{4}/[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string that ends with the word 'hour'.",
+    "regex": "^.*hour$"
+  },
+  {
+    "nl": "Capture a string where the word 'gamma' is followed by one or more digits.",
+    "regex": "^.*gamma\\d+.*$"
+  },
+  {
+    "nl": "Identify a string that starts with the word 'price'.",
+    "regex": "^price.*$"
+  },
+  {
+    "nl": "Find a string containing the substring 'cache'.",
+    "regex": "^.*cache.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where the word 'report' is followed by one or more digits.",
+    "regex": "^.*report\\d+.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of two lowercase letters and two digits separated by a colon.",
+    "regex": "^[a-z]{2}:[0-9]{2}$"
+  },
+  {
+    "nl": "Capture a string made of one uppercase letter followed by two lowercase letters.",
+    "regex": "^[A-Z]{1}[a-z]{2}$"
+  },
+  {
+    "nl": "Validate a string containing the standalone whole word 'login'.",
+    "regex": "^.*\\blogin\\b.*$"
+  },
+  {
+    "nl": "Capture the run of digits that appears right after a dollar sign, using a positive lookbehind.",
+    "regex": "(?<=\\$)\\d+"
+  },
+  {
+    "nl": "Detect a string that starts with the word 'job'.",
+    "regex": "^job.*$"
+  },
+  {
+    "nl": "Match a string of two letters and four digits separated by a colon.",
+    "regex": "^[A-Za-z]{2}:[0-9]{4}$"
+  },
+  {
+    "nl": "Find a string containing the substring 'flag'.",
+    "regex": "^.*flag.*$"
+  },
+  {
+    "nl": "Extract a string of three letters and two digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{3}-[0-9]{2}$"
+  },
+  {
+    "nl": "Match a string where the word 'session' is followed by one or more digits.",
+    "regex": "^.*session\\d+.*$"
+  },
+  {
+    "nl": "Identify a string that ends with the word 'date'.",
+    "regex": "^.*date$"
+  },
+  {
+    "nl": "Check if the input is a string that is exactly the word 'alpha'.",
+    "regex": "^alpha$"
+  },
+  {
+    "nl": "Match a string where the substring 'item' is immediately followed by a five-digit id.",
+    "regex": "^.*item\\d{5}.*$"
+  },
+  {
+    "nl": "Find a string containing the same digit repeated four times in a row.",
+    "regex": "^.*(\\d)\\1{3}.*$"
+  },
+  {
+    "nl": "Validate a string of at least one whitespace character.",
+    "regex": "^\\s{1,}$"
+  },
+  {
+    "nl": "Detect a string that is exactly the word 'email'.",
+    "regex": "^email$"
+  },
+  {
+    "nl": "Identify a string where the substring 'job' is immediately followed by a three-digit id.",
+    "regex": "^.*job\\d{3}.*$"
+  },
+  {
+    "nl": "Match a string made of two letters followed by four digits.",
+    "regex": "^[A-Za-z]{2}[0-9]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string where the substring 'month' is immediately followed by a four-digit id.",
+    "regex": "^.*month\\d{4}.*$"
+  },
+  {
+    "nl": "a date in YYYY-MM-DD format capturing year, month and day",
+    "regex": "^(\\d{4})-(\\d{2})-(\\d{2})$"
+  },
+  {
+    "nl": "Validate the run of digits that comes right before the unit 'kg' (kilograms), using a positive lookahead.",
+    "regex": "\\d+(?=kg)"
+  },
+  {
+    "nl": "Search for a string where the substring 'minute' is immediately followed by a three-digit id.",
+    "regex": "^.*minute\\d{3}.*$"
+  },
+  {
+    "nl": "Find a string where the substring 'invoice' is immediately followed by a four-digit id.",
+    "regex": "^.*invoice\\d{4}.*$"
+  },
+  {
+    "nl": "Search for a password of at least ten characters with an uppercase letter, a lowercase letter and a digit, using lookaheads.",
+    "regex": "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d).{10,}$"
+  },
+  {
+    "nl": "Detect a string of two letters and four digits separated by a dot.",
+    "regex": "^[A-Za-z]{2}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Match a string of exactly six alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{6}$"
+  },
+  {
+    "nl": "Identify a string of at least three hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{3,}$"
+  },
+  {
+    "nl": "Search for a string that starts with the word 'year'.",
+    "regex": "^year.*$"
+  },
+  {
+    "nl": "Search for a string of three uppercase letters and two digits separated by a hyphen.",
+    "regex": "^[A-Z]{3}-[0-9]{2}$"
+  },
+  {
+    "nl": "Check if the input is a string that starts with the word 'status'.",
+    "regex": "^status.*$"
+  },
+  {
+    "nl": "Detect a string where the substring 'error' is immediately followed by a five-digit id.",
+    "regex": "^.*error\\d{5}.*$"
+  },
+  {
+    "nl": "Search for a string of between five and ten letters.",
+    "regex": "^[A-Za-z]{5,10}$"
+  },
+  {
+    "nl": "Check if the input is a string where the word 'order' is followed by one or more digits.",
+    "regex": "^.*order\\d+.*$"
+  },
+  {
+    "nl": "Match a string of between three and five hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{3,5}$"
+  },
+  {
+    "nl": "Find a string that ends with the word 'cache'.",
+    "regex": "^.*cache$"
+  },
+  {
+    "nl": "Validate a string of four letters and two digits separated by a slash.",
+    "regex": "^[A-Za-z]{4}/[0-9]{2}$"
+  },
+  {
+    "nl": "Identify a string of three uppercase letters and two digits separated by a underscore.",
+    "regex": "^[A-Z]{3}_[0-9]{2}$"
+  },
+  {
+    "nl": "Match a string where the substring 'token' is immediately followed by a six-digit id.",
+    "regex": "^.*token\\d{6}.*$"
+  },
+  {
+    "nl": "Match a string where the substring 'beta' is immediately followed by a two-digit id.",
+    "regex": "^.*beta\\d{2}.*$"
+  },
+  {
+    "nl": "Match a string of four uppercase letters and three digits separated by a colon.",
+    "regex": "^[A-Z]{4}:[0-9]{3}$"
+  },
+  {
+    "nl": "Detect a string of four letters and two digits separated by a underscore.",
+    "regex": "^[A-Za-z]{4}_[0-9]{2}$"
+  },
+  {
+    "nl": "Validate a string of exactly seven lowercase letters.",
+    "regex": "^[a-z]{7}$"
+  },
+  {
+    "nl": "Check if the input is a string of between two and four hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{2,4}$"
+  },
+  {
+    "nl": "Detect a string of four lowercase letters and two digits separated by a slash.",
+    "regex": "^[a-z]{4}/[0-9]{2}$"
+  },
+  {
+    "nl": "Detect a string that ends with the word 'city'.",
+    "regex": "^.*city$"
+  },
+  {
+    "nl": "Find a string where one or more digits come immediately before the word 'gamma'.",
+    "regex": "^.*\\d+gamma.*$"
+  },
+  {
+    "nl": "Extract a string of four lowercase letters and three digits separated by a dot.",
+    "regex": "^[a-z]{4}\\.[0-9]{3}$"
+  },
+  {
+    "nl": "Capture a string that ends with the word 'country'.",
+    "regex": "^.*country$"
+  },
+  {
+    "nl": "Match a string where one or more digits come immediately before the word 'temp'.",
+    "regex": "^.*\\d+temp.*$"
+  },
+  {
+    "nl": "Capture a string made of two uppercase letters followed by three digits.",
+    "regex": "^[A-Z]{2}[0-9]{3}$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly four uppercase letters.",
+    "regex": "^[A-Z]{4}$"
+  },
+  {
+    "nl": "Match a string where the substring 'year' is immediately followed by a six-digit id.",
+    "regex": "^.*year\\d{6}.*$"
+  },
+  {
+    "nl": "Find a string of word characters that does not start with the word 'Code', using a negative lookahead.",
+    "regex": "^(?!Code)\\w+$"
+  },
+  {
+    "nl": "Identify a string where the substring 'invoice' is immediately followed by a six-digit id.",
+    "regex": "^.*invoice\\d{6}.*$"
+  },
+  {
+    "nl": "Check if the input is a string that is exactly the word 'data'.",
+    "regex": "^data$"
+  },
+  {
+    "nl": "Capture a string where the substring 'test' is immediately followed by a six-digit id.",
+    "regex": "^.*test\\d{6}.*$"
+  },
+  {
+    "nl": "Validate a string that is exactly the word 'test'.",
+    "regex": "^test$"
+  },
+  {
+    "nl": "Detect a string where the substring 'minute' is immediately followed by a four-digit id.",
+    "regex": "^.*minute\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string containing the standalone whole word 'item'.",
+    "regex": "^.*\\bitem\\b.*$"
+  },
+  {
+    "nl": "Test whether the input is a string of exactly four special characters.",
+    "regex": "^[!@#$%^&*]{4}$"
+  },
+  {
+    "nl": "Search for a string of exactly eight letters.",
+    "regex": "^[A-Za-z]{8}$"
+  },
+  {
+    "nl": "Test whether the input is a string containing the substring 'country'.",
+    "regex": "^.*country.*$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'address'.",
+    "regex": "^address.*$"
+  },
+  {
+    "nl": "Test whether the input is a string where one or more digits come immediately before the word 'config'.",
+    "regex": "^.*\\d+config.*$"
+  },
+  {
+    "nl": "Extract a string of four uppercase letters and four digits separated by a dot.",
+    "regex": "^[A-Z]{4}\\.[0-9]{4}$"
+  },
+  {
+    "nl": "Capture a string where the substring 'job' is immediately followed by a five-digit id.",
+    "regex": "^.*job\\d{5}.*$"
+  },
+  {
+    "nl": "Capture a string of three uppercase letters and two digits separated by a underscore.",
+    "regex": "^[A-Z]{3}_[0-9]{2}$"
+  },
+  {
+    "nl": "Match a string of exactly four uppercase letters.",
+    "regex": "^[A-Z]{4}$"
+  },
+  {
+    "nl": "Test whether the input is a string of two letters and four digits separated by a slash.",
+    "regex": "^[A-Za-z]{2}/[0-9]{4}$"
+  },
+  {
+    "nl": "Validate a string that is exactly the word 'config'.",
+    "regex": "^config$"
+  },
+  {
+    "nl": "Validate a string that ends with the word 'test'.",
+    "regex": "^.*test$"
+  },
+  {
+    "nl": "a currency amount with thousands separators like 1,234.56",
+    "regex": "^\\$?\\d{1,3}(?:,\\d{3})*(?:\\.\\d{2})?$"
+  },
+  {
+    "nl": "Detect a string that ends with the word 'edge'.",
+    "regex": "^.*edge$"
+  },
+  {
+    "nl": "Validate a string made of four uppercase letters followed by two lowercase letters.",
+    "regex": "^[A-Z]{4}[a-z]{2}$"
+  },
+  {
+    "nl": "Validate a string of exactly three whitespace characters.",
+    "regex": "^\\s{3}$"
+  },
+  {
+    "nl": "Check if the input is a string of exactly six letters.",
+    "regex": "^[A-Za-z]{6}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'flag' is immediately followed by a two-digit id.",
+    "regex": "^.*flag\\d{2}.*$"
+  },
+  {
+    "nl": "Identify a string where the substring 'stack' is immediately followed by a two-digit id.",
+    "regex": "^.*stack\\d{2}.*$"
+  },
+  {
+    "nl": "Identify a string of at least three uppercase letters.",
+    "regex": "^[A-Z]{3,}$"
+  },
+  {
+    "nl": "Capture a string that is exactly the word 'price'.",
+    "regex": "^price$"
+  },
+  {
+    "nl": "Find a string containing the standalone whole word 'ticket'.",
+    "regex": "^.*\\bticket\\b.*$"
+  },
+  {
+    "nl": "Match a string of four lowercase letters and four digits separated by a slash.",
+    "regex": "^[a-z]{4}/[0-9]{4}$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'stack' is immediately followed by a four-digit id.",
+    "regex": "^.*stack\\d{4}.*$"
+  },
+  {
+    "nl": "Find a string containing the substring 'job'.",
+    "regex": "^.*job.*$"
+  },
+  {
+    "nl": "Find a string containing the same digit repeated three times in a row.",
+    "regex": "^.*(\\d)\\1{2}.*$"
+  },
+  {
+    "nl": "Validate a string of three letters and two digits separated by a hyphen.",
+    "regex": "^[A-Za-z]{3}-[0-9]{2}$"
+  },
+  {
+    "nl": "Match a string made of one lowercase letter followed by three digits.",
+    "regex": "^[a-z]{1}[0-9]{3}$"
+  },
+  {
+    "nl": "Find a string of exactly three vowels.",
+    "regex": "^[aeiou]{3}$"
+  },
+  {
+    "nl": "Search for a string of three lowercase letters and two digits separated by a slash.",
+    "regex": "^[a-z]{3}/[0-9]{2}$"
+  },
+  {
+    "nl": "Search for a string of exactly ten hexadecimal digits.",
+    "regex": "^[0-9A-Fa-f]{10}$"
+  },
+  {
+    "nl": "Capture a string where one or more digits come immediately before the word 'beta'.",
+    "regex": "^.*\\d+beta.*$"
+  },
+  {
+    "nl": "Check if the input is a string where the substring 'admin' is immediately followed by a five-digit id.",
+    "regex": "^.*admin\\d{5}.*$"
+  },
+  {
+    "nl": "Extract a two-decimal amount that follows a dollar sign, using a positive lookbehind.",
+    "regex": "(?<=\\$)\\d+\\.\\d{2}"
+  },
+  {
+    "nl": "Match a string where the substring 'address' is immediately followed by a six-digit id.",
+    "regex": "^.*address\\d{6}.*$"
+  },
+  {
+    "nl": "Capture a string of at least two alphanumeric characters.",
+    "regex": "^[A-Za-z0-9]{2,}$"
+  },
+  {
+    "nl": "Search for a string that starts with the word 'code'.",
+    "regex": "^code.*$"
+  },
+  {
+    "nl": "Extract a string where the substring 'hour' is immediately followed by a four-digit id.",
+    "regex": "^.*hour\\d{4}.*$"
+  },
+  {
+    "nl": "Check if the input is a string made of three uppercase letters followed by one lowercase letter.",
+    "regex": "^[A-Z]{3}[a-z]{1}$"
+  },
+  {
+    "nl": "Test whether the input is a string that starts with the word 'city'.",
+    "regex": "^city.*$"
+  }
+]
