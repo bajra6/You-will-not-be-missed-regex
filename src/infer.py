@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     tests = [
         "find a string of two uppercase letters followed by one digit",
-        "find a string with 8 to 12 characters, at least two uppercase letter, two lowercase letter, and four digits",
+        "find a string with eight to twelve characters, at least two uppercase letter, two lowercase letter, and four digits",
         "match a string containing the standalone whole word flag",
     ]
 
