@@ -1,8 +1,10 @@
-# NL2Regex Transformer
+# If you like regex, you're a psycho.
+So how about a Transformer to help humankind with it?
 
-A from-scratch Transformer that converts English text prompts into regular expressions.
+A Transformer built from scratch that converts English text prompts into regular expressions.
 
 Trained on 10K natural language → regex pairs, achieves **95.9% exact match** and **99.9% valid regex rate**.
+A Synthetic dataset was used. 
 
 ## Architecture
 
