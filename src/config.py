@@ -14,7 +14,7 @@ d_model = 256       # dimension of your model
 n_heads = 4         # This is number of heads in multi-head attention
 d_ff = 1024 
 n_layers = 4        # Number of encoder and decoder layers - 4 each
-dropout = 0.2
+dropout = 0.2       # Original paper used 0.1, 0.2 here because we have less data. Prevents overfitting (regularization)
 
 vocab_nl = 4000     # Natural Language vocabulary size for BPE
 vocab_regex = 256   # Regex vocabulary size when using BPE
